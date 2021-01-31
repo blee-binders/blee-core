@@ -3,7 +3,7 @@
 *  [[elisp:(org-cycle)][|#Control|]] :: [[elisp:(blee:bnsm:menu-back)][Back]] [[elisp:(toggle-read-only)][read/wr]] | [[elisp:(show-all)][Show-All]]  [[elisp:(org-shifttab)][Overview]]  [[elisp:(progn (org-shifttab) (org-content))][Content]] | [[elisp:(delete-other-windows)][(1)]] | [[elisp:(progn (save-buffer) (kill-buffer))][S&Q]] [[elisp:(save-buffer)][Save]] [[elisp:(kill-buffer)][Quit]] [[elisp:(bury-buffer)][Bury]]  [[elisp:(magit)][Magit]]  [[elisp:(org-cycle)][| ]]
 **  [[elisp:(blee:buf:re-major-mode)][Re-Major-Mode]] ||  [[elisp:(org-dblock-update-buffer-bx)][Update Buf Dblocks]] || [[elisp:(org-dblock-bx-blank-buffer)][Blank Buf Dblocks]] || [[elisp:(bx:panel:variablesShow)][bx:panel:variablesShow]]
 **  [[elisp:(blee:menu-sel:comeega:maintenance:popupMenu)][||Maintenance]] 
-**  This File :: *= /bisos/panels/blee/core/_nodeBase_/fullUsagePanel-en.org =* 
+**  This File :: *= /bisos/panels/blee-core/mail/_nodeBase_/fullUsagePanel-en.org =* 
 *  [[elisp:(org-cycle)][|#Select|]]  :: (Results: [[elisp:(blee:bnsm:results-here)][Here]] | [[elisp:(blee:bnsm:results-split-below)][Below]] | [[elisp:(blee:bnsm:results-split-right)][Right]] | [[elisp:(blee:bnsm:results-other)][Other]] | [[elisp:(blee:bnsm:results-popup)][Popup]]) (Select:  [[elisp:(lsip-local-run-command "lpCurrentsAdmin.sh -i currentsGetThenShow")][Show Currents]]  [[elisp:(lsip-local-run-command "lpCurrentsAdmin.sh")][lpCurrentsAdmin.sh]] ) [[elisp:(org-cycle)][| ]]
 **  #See:  (Window: [[elisp:(blee:bnsm:results-window-show)][?]] | [[elisp:(blee:bnsm:results-window-set 0)][0]] | [[elisp:(blee:bnsm:results-window-set 1)][1]] | [[elisp:(blee:bnsm:results-window-set 2)][2]] | [[elisp:(blee:bnsm:results-window-set 3)][3]] ) || [[elisp:(lsip-local-run-command-here "echo pushd dest")][echo pushd dir]] || [[elisp:(lsip-local-run-command-here "lsf")][lsf]] || [[elisp:(lsip-local-run-command-here "pwd")][pwd]] |
 **  [[elisp:(org-cycle)][|#Destinations|]] :: [[Evolution]] | [[Maintainers]]  [[elisp:(org-cycle)][| ]]
@@ -11,19 +11,16 @@
 ####+END
 ####+BEGIN: blee:bxPanel:title :panelType "=bxPanel=" :title "auto"
 * [[elisp:(show-all)][(>]] ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 
-*   [[img-link:file:/bisos/blee/env/images/fpfByStarElipseTop-50.png][http://www.freeprotocols.org]]_ _   ~Node:: panels/blee -- core~   [[img-link:file:/bisos/blee/env/images/fpfByStarElipseBottom-50.png][http://www.by-star.net]]
+*   [[img-link:file:/bisos/blee/env/images/fpfByStarElipseTop-50.png][http://www.freeprotocols.org]]_ _   ~Node:: panels/blee-core -- mail~   [[img-link:file:/bisos/blee/env/images/fpfByStarElipseBottom-50.png][http://www.by-star.net]]
 * ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━  [[elisp:(org-shifttab)][<)]] E|
 ####+END:
 ####+BEGIN: blee:bxPanel:terseTreeNavigator :panelsList "bxPanel"
 * [[elisp:(show-all)][(>]] [[elisp:(describe-function 'org-dblock-write:blee:bxPanel:terseTreeNavigator)][dbf]]
 * [[elisp:(show-all)][|n]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_   General Panels ::   [[img-link:file:/bisos/blee/env/images/bystarInside.jpg][http://www.by-star.net]] *|*  [[elisp:(find-file "/libre/ByStar/InitialTemplates/activeDocs/listOfDocs/fullUsagePanel-en.org")][BxDE Top Panel]] *|* [[elisp:(blee:bnsm:panel-goto "/libre/ByStar/InitialTemplates/activeDocs/planning/Main")][ByStar Planning]]
 
-*   =Decedents=  :: [[elisp:(blee:bnsm:panel-goto "/bisos/panels/blee-core/mail/_nodeBase_")][ =mail= ]] *|* 
-*   *Siblings*   :: [[elisp:(blee:bnsm:panel-goto "/bisos/panels/bisos-apps/_nodeBase_")][ =bisos-apps= ]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/panels/bisos-core/_nodeBase_")][ =bisos-core= ]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/panels/bisos-dev/_nodeBase_")][ =bisos-dev= ]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/panels/bisos-model/_nodeBase_")][ =bisos-model= ]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/panels/bisos-periphery/_nodeBase_")][ =bisos-periphery= ]] *|* 
-*   *Siblings*   :: [[elisp:(blee:bnsm:panel-goto "/bisos/panels/bisos-svcs/_nodeBase_")][ =bisos-svcs= ]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/panels/blee-core/_nodeBase_")][ =blee-core= ]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/panels/blee-dev/_nodeBase_")][ =blee-dev= ]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/panels/blee-model/_nodeBase_")][ =blee-model= ]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/panels/bxde-core/_nodeBase_")][ =bxde-core= ]] *|* 
-*   *Siblings*   :: [[elisp:(blee:bnsm:panel-goto "/bisos/panels/bxde-dev/_nodeBase_")][ =bxde-dev= ]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/panels/bxde-model/_nodeBase_")][ =bxde-model= ]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/panels/connectivity/_nodeBase_")][ =connectivity= ]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/panels/desktop/_nodeBase_")][ =desktop= ]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/panels/espoused/_nodeBase_")][ =espoused= ]] *|* 
-*   *Siblings*   :: [[elisp:(blee:bnsm:panel-goto "/bisos/panels/non-libre-halaal/_nodeBase_")][ =non-libre-halaal= ]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/panels/overview")][overview]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/panels/panelsRoot")][panelsRoot]] *|* 
-*   /Ancestors/  :: [[elisp:(blee:bnsm:panel-goto "/bisos/panels/_nodeBase_")][ =panels= ]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos")][bisos]] *|* 
+*   =Decedents=  :: [[elisp:(blee:bnsm:panel-goto "/bisos/panels/blee-core/mail/mailings/_nodeBase_")][ =mailings= ]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/panels/blee-core/mail/reading/_nodeBase_")][ =reading= ]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/panels/blee-core/mail/sending/_nodeBase_")][ =sending= ]] *|* 
+*   *Siblings*   :: [[elisp:(blee:bnsm:panel-goto "/bisos/panels/blee-core/mail/_nodeBase_")][ =mail= ]] *|* 
+*   /Ancestors/  :: [[elisp:(blee:bnsm:panel-goto "/bisos/panels/blee-core/_nodeBase_")][ =blee-core= ]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/panels/_nodeBase_")][ =panels= ]] *|* 
 *                                   _━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━_                          [[elisp:(org-shifttab)][<)]] E|
 ####+END
 ####+BEGIN: blee:bxPanel:foldingSection :outLevel 1 :title "Overview" :anchor "Panel"
@@ -32,25 +29,22 @@
 ** 
 ** Overview Comes Here.
 ** B|
-* 
-####+BEGIN: blee:bxPanel:linkWithTreeElem :model "auto" :sep t :outLevel 2 :agenda nil :foldDesc "Mail Sending, Receiving, Reading" :destDesc "Mail" :dest "/bisos/panels/blee-core/mail/_nodeBase_"
-* /[[elisp:(beginning-of-buffer)][|^]] [[elisp:(blee:menu-sel:navigation:popupMenu)][==]] [[elisp:(delete-other-windows)][|1]]/
-* [[elisp:(show-all)][(>]] [[elisp:(blee:menu-sel:outline:popupMenu)][+-]] [[elisp:(blee:menu-sel:navigation:popupMenu)][==]] [[elisp:(blee:bnsm:panel-goto "/bisos/panels/blee-core/mail/_nodeBase_")][@ ~Mail~ @]]   ::  [[elisp:(org-cycle)][| /Mail Sending, Receiving, Reading/ |]]  [[elisp:(org-shifttab)][<)]] E|
+####+BEGIN: blee:bxPanel:foldingSection :outLevel 1 :sep t :title "Panel Tree Navigation" :anchor "panelTreeNav" :extraInfo ""
+* /[[elisp:(beginning-of-buffer)][|^]]  [[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]] [[elisp:(delete-other-windows)][|1]]/ 
+* [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(org-cycle)][| *Panel Tree Navigation:* |]] <<panelTreeNav>>   [[elisp:(org-shifttab)][<)]] E|
 ####+END
-
-####+BEGIN: blee:bxPanel:linkWithTreeElem :model "auto" :sep nil :outLevel 2 :agenda nil :foldDesc "Outgoing Mail" :destDesc "Mail Origination" :dest "/bisos/panels/blee-core/mail/sending/_nodeBase_"
-* [[elisp:(show-all)][(>]] [[elisp:(blee:menu-sel:outline:popupMenu)][+-]] [[elisp:(blee:menu-sel:navigation:popupMenu)][==]] [[elisp:(blee:bnsm:panel-goto "/bisos/panels/blee-core/mail/sending/_nodeBase_")][@ ~Mail Origination~ @]]   ::  [[elisp:(org-cycle)][| /Outgoing Mail/ |]]  [[elisp:(org-shifttab)][<)]] E|
+####+BEGIN: blee:bxPanel:linedTreeNavigator :model "auto" :outLevel 2
+** [[elisp:(show-all)][|N]] [[elisp:(blee:menu-sel:outline:popupMenu)][+-]] [[elisp:(blee:menu-sel:navigation:popupMenu)][==]]    <<~mail~>> ~nil:~ :inDblock 
+** [[elisp:(show-all)][|n]] [[elisp:(blee:menu-sel:outline:popupMenu)][+-]] [[elisp:(blee:menu-sel:navigation:popupMenu)][==]] [[elisp:(blee:bnsm:panel-goto "/bisos/panels/blee-core/mail/mailings/_nodeBase_")][@ =mailings= @]]    ::  Node: /mailings/
+** [[elisp:(show-all)][|n]] [[elisp:(blee:menu-sel:outline:popupMenu)][+-]] [[elisp:(blee:menu-sel:navigation:popupMenu)][==]] [[elisp:(blee:bnsm:panel-goto "/bisos/panels/blee-core/mail/reading/_nodeBase_")][@ =reading= @]]    ::  Node: /reading/
+** [[elisp:(show-all)][|n]] [[elisp:(blee:menu-sel:outline:popupMenu)][+-]] [[elisp:(blee:menu-sel:navigation:popupMenu)][==]] [[elisp:(blee:bnsm:panel-goto "/bisos/panels/blee-core/mail/sending/_nodeBase_")][@ =sending= @]]    ::  Node: /sending/
+** [[elisp:(show-all)][|N]] [[elisp:(blee:menu-sel:outline:popupMenu)][+-]] [[elisp:(blee:menu-sel:navigation:popupMenu)][==]]    <<~mail~>> ~nil:~ :inDblock 
+** [[elisp:(show-all)][|n]] [[elisp:(blee:menu-sel:outline:popupMenu)][+-]] [[elisp:(blee:menu-sel:navigation:popupMenu)][==]] [[elisp:(blee:bnsm:panel-goto "/bisos/panels/blee-core/mail/_nodeBase_")][@ =mail= @]]    ::  Node: /mail/
+** [[elisp:(show-all)][|N]] [[elisp:(blee:menu-sel:outline:popupMenu)][+-]] [[elisp:(blee:menu-sel:navigation:popupMenu)][==]]    <<~mail~>> ~nil:~ :inDblock 
+** [[elisp:(show-all)][|n]] [[elisp:(blee:menu-sel:outline:popupMenu)][+-]] [[elisp:(blee:menu-sel:navigation:popupMenu)][==]] [[elisp:(blee:bnsm:panel-goto "/bisos/panels/blee-core/_nodeBase_")][@ =blee-core= @]]    ::  Node: /blee-core/
+** [[elisp:(show-all)][|n]] [[elisp:(blee:menu-sel:outline:popupMenu)][+-]] [[elisp:(blee:menu-sel:navigation:popupMenu)][==]] [[elisp:(blee:bnsm:panel-goto "/bisos/panels/_nodeBase_")][@ =panels= @]]    ::  Node: /panels/
+** [[elisp:(org-shifttab)][<)]] E|
 ####+END
-####+BEGIN: blee:bxPanel:linkWithTreeElem :model "auto" :sep nil :outLevel 2 :agenda nil :foldDesc "Incoming Mail" :destDesc "Mail Reading" :dest "/bisos/panels/blee-core/mail/sending/_nodeBase_"
-* [[elisp:(show-all)][(>]] [[elisp:(blee:menu-sel:outline:popupMenu)][+-]] [[elisp:(blee:menu-sel:navigation:popupMenu)][==]] [[elisp:(blee:bnsm:panel-goto "/bisos/panels/blee-core/mail/sending/_nodeBase_")][@ ~Mail Reading~ @]]   ::  [[elisp:(org-cycle)][| /Incoming Mail/ |]]  [[elisp:(org-shifttab)][<)]] E|
-####+END
-####+BEGIN: blee:bxPanel:linkWithTreeElem :model "auto" :sep t :outLevel 2 :agenda nil :foldDesc "Rolodex, Contacts, BBDB" :destDesc "BBDB" :dest "/bisos/panels/blee-core/contacts/bbdb/_nodeBase_"
-* /[[elisp:(beginning-of-buffer)][|^]] [[elisp:(blee:menu-sel:navigation:popupMenu)][==]] [[elisp:(delete-other-windows)][|1]]/
-* [[elisp:(show-all)][(>]] [[elisp:(blee:menu-sel:outline:popupMenu)][+-]] [[elisp:(blee:menu-sel:navigation:popupMenu)][==]] [[elisp:(blee:bnsm:panel-goto "/bisos/panels/blee-core/contacts/bbdb/_nodeBase_")][@ ~BBDB~ @]]   ::  [[elisp:(org-cycle)][| /Rolodex, Contacts, BBDB/ |]]  [[elisp:(org-shifttab)][<)]] E|
-####+END
-* 
-* 
-* 
 ####+BEGIN: blee:bxPanel:separator :outLevel 1
 * /[[elisp:(beginning-of-buffer)][|^]] [[elisp:(blee:menu-sel:navigation:popupMenu)][==]] [[elisp:(delete-other-windows)][|1]]/
 ####+END
@@ -82,7 +76,7 @@
 #+STARTUP: inlineimages
 #+SEQ_TODO: TODO WAITING DELEGATED | DONE DEFERRED CANCELLED
 #+TAGS: @desk(d) @home(h) @work(w) @withInternet(i) @road(r) call(c) errand(e)
-#+CATEGORY: N:core
+#+CATEGORY: N:mail
 ####+END
 ####+BEGIN: blee:bxPanel:footerEmacsParams :primMode "org-mode"
 * [[elisp:(show-all)][(>]] [[elisp:(describe-function 'org-dblock-write:blee:bxPanel:footerEmacsParams)][dbf]]
