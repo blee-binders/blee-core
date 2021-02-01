@@ -28,19 +28,34 @@
 ** 
 ** Overview Comes Here.
 ** B|
-####+BEGIN: blee:bxPanel:foldingSection :outLevel 1 :sep t :title "Start Mail Start (msdt)" :anchor "" :extraInfo ""
+####+BEGIN: blee:bxPanel:foldingSection :outLevel 1 :sep t :title "Start Mail (msdt)" :anchor "" :extraInfo ""
 * /[[elisp:(beginning-of-buffer)][|^]]  [[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]] [[elisp:(delete-other-windows)][|1]]/ 
-* [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(org-cycle)][| *Start Mail Start (msdt):* |]]    [[elisp:(org-shifttab)][<)]] E|
+* [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(org-cycle)][| *Start Mail (msdt):* |]]    [[elisp:(org-shifttab)][<)]] E|
 ####+END
 ####+BEGIN: bxPanel:mailing|start :outLevel 2 :sep t :mailingFile "/bxo/usg/bystar/BUE/mailings/start/family.fa/blank/basicText.fa/content.mail" :anchor "" :extraInfo ""
-** [[elisp:(show-all)][(>]]    [[elisp:(msdt:compose/with-file "/bxo/usg/bystar/BUE/mailings/start/family.fa/blank/basicText.fa/content.mail")][family@.text.fa]]        [[file:/bxo/usg/bystar/BUE/mailings/start/family.fa/blank/basicText.fa/content.mail][Visit MailingFile]]     [[elisp:(org-shifttab)][<)]] E|
+** [[elisp:(show-all)][(>]]    [[elisp:(msdt:compose/with-file "/bxo/usg/bystar/BUE/mailings/start/family.fa/blank/basicText.fa/content.mail")][family@.text.fa.1]]        [[file:/bxo/usg/bystar/BUE/mailings/start/family.fa/blank/basicText.fa/content.mail][Visit MailingFile]]     [[elisp:(org-shifttab)][<)]] E|
 ####+END
 ####+BEGIN: bxPanel:mailing|start :outLevel 2 :sep t :mailingFile "/bxo/usg/bystar/BUE/mailings/start/family.fa/blank/basicHtml.fa/content.mail" :anchor "" :extraInfo ""
 ** [[elisp:(show-all)][(>]]    [[elisp:(msdt:compose/with-file "/bxo/usg/bystar/BUE/mailings/start/family.fa/blank/basicHtml.fa/content.mail")][start-family.fa-blank-basicHtml.fa]]        [[file:/bxo/usg/bystar/BUE/mailings/start/family.fa/blank/basicHtml.fa/content.mail][Visit MailingFile]]     [[elisp:(org-shifttab)][<)]] E|
 ####+END
+####+BEGIN: bxPanel:mailing|start :outLevel 2 :sep t :mailingFile "/bxo/usg/bystar/BUE/mailings/start/family.fa/blank/basicLatex.fa/basicLatex/mailingStatic/content.mail" :anchor "" :extraInfo ""
+** [[elisp:(show-all)][(>]]    [[elisp:(msdt:compose/with-file "/bxo/usg/bystar/BUE/mailings/start/family.fa/blank/basicLatex.fa/basicLatex/mailingStatic/content.mail")][start-family-blank-LaTeX.fa]]        [[file:/bxo/usg/bystar/BUE/mailings/start/family.fa/blank/basicLatex.fa/basicLatex/mailingStatic/content.mail][Visit MailingFile]]     [[elisp:(org-shifttab)][<)]] E|
+####+END
+####+BEGIN: bxPanel:mailing|start :outLevel 2 :sep t :mailingFile "/bxo/usg/bystar/BUE/mailings/start/office.fa/blank/basicText.fa/content.mail" :anchor "" :extraInfo ""
+** [[elisp:(show-all)][(>]]    [[elisp:(msdt:compose/with-file "/bxo/usg/bystar/BUE/mailings/start/office.fa/blank/basicText.fa/content.mail")][start-office.blank-basicText.fa]]        [[file:/bxo/usg/bystar/BUE/mailings/start/office.fa/blank/basicText.fa/content.mail][Visit MailingFile]]     [[elisp:(org-shifttab)][<)]] E|
+####+END
+####+BEGIN: bxPanel:mailing|start :outLevel 2 :sep t :mailingFile "/bxo/usg/bystar/BUE/mailings/start/office.fa/blank/basicHtml.fa/content.mail" :anchor "" :extraInfo ""
+** [[elisp:(show-all)][(>]]    [[elisp:(msdt:compose/with-file "/bxo/usg/bystar/BUE/mailings/start/office.fa/blank/basicHtml.fa/content.mail")][start:office.blank-basicHtml.fa]]        [[file:/bxo/usg/bystar/BUE/mailings/start/office.fa/blank/basicHtml.fa/content.mail][Visit MailingFile]]     [[elisp:(org-shifttab)][<)]] E|
+####+END
 
+####+BEGIN: blee:bxPanel:foldingSection :outLevel 1 :sep t :title "Start Test Mail" :anchor "" :extraInfo ""
+* /[[elisp:(beginning-of-buffer)][|^]]  [[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]] [[elisp:(delete-other-windows)][|1]]/ 
+* [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(org-cycle)][| *Start Test Mail:* |]]    [[elisp:(org-shifttab)][<)]] E|
+####+END
+####+BEGIN: bxPanel:mailing|start :outLevel 2 :sep t :mailingFile "~/BUE/mailings/start/test/badbad/simpleCheck/content.mail" :anchor "" :extraInfo ""
+** [[elisp:(show-all)][(>]]    [[elisp:(msdt:compose/with-file "~/BUE/mailings/start/test/badbad/simpleCheck/content.mail")][start-test-badbad-simpleCheck]]        [[file:~/BUE/mailings/start/test/badbad/simpleCheck/content.mail][Visit MailingFile]]     [[elisp:(org-shifttab)][<)]] E|
+####+END
 
-**  [[elisp:(msdt:compose/with-file "/bxo/usg/bystar/BUE/mailings/start/family.fa/blank/basicText.fa/content.mail")][compose family@ text.fa] "/bxo/usg/bystar/BUE/mailings/start/family.fa/blank/basicText.fa/content.mail"
 
 *      ================
 *      ================                         *Mail Sending -- BxDE+User*
@@ -69,9 +84,7 @@
 **     Farsi:      html=hello+signature:  [[elisp:(bxms-compose-start-family.fa-blank-basicHtml.fa 1)][family.fa@]]  [[file:~/BUE/mailings/start/family.fa/blank/basicHtml.fa][Edit Family]] --  [[elisp:(bxms-compose-start-desk.fa-blank-basicHtml.fa 1)][desk.fa@]]  [[file:~/BUE/mailings/start/desk.fa/blank/basicHtml.fa][Edit Desk]] --  [[elisp:(bxms-compose-start-friend.fa-blank-basicHtml.fa 1)][friend.fa@]]  [[file:~/BUE/mailings/start/friend.fa/blank/basicHtml.fa][Edit Friend]]
 **                 text=hello+signature:  [[elisp:(bxms-compose-start-family.fa-blank-basicText.fa 1)][family.fa@]]  [[file:~/BUE/mailings/start/family.fa/blank/basicText.fa][Edit Family]] --  [[elisp:(bxms-compose-start-desk.fa-blank-basicText.fa 1)][desk.fa@]]  [[file:~/BUE/mailings/start/desk.fa/blank/basicText.fa][Edit Desk]] --  [[elisp:(bxms-compose-start-friend.fa-blank-basicText.fa 1)][friend.fa@]]  [[file:~/BUE/mailings/start/friend.fa/blank/basicText.fa][Edit Friend]]
 **     ============
-**     Canned Email To:    Probe --  [[file:~/BUE/mailings/start/test/test/basicHtml/content.mail][To Test@]]   [[file:~/BUE/mailings/start/test/test/basicHtml][Edit Test]
-
---  [[file:~/BUE/mailings/start/test/badbad/simpleCheck/content.mail][To Bounce]]   [[file:~/BUE/mailings/start/test/badbad/simpleCheck][Edit Bounce]]   -- (visit-buffer "*trace of SMTP session to ...*")
+**     Canned Email To:    Probe --  [[file:~/BUE/mailings/start/test/test/basicHtml/content.mail][To Test@]]   [[file:~/BUE/mailings/start/test/test/basicHtml][Edit Test]] --  [[file:~/BUE/mailings/start/test/badbad/simpleCheck/content.mail][To Bounce]]   [[file:~/BUE/mailings/start/test/badbad/simpleCheck][Edit Bounce]]   -- (visit-buffer "*trace of SMTP session to ...*")
 **     ============
 **     [[elisp:(find-file "~/BUE/inserts/moded/message-mode/")][Visit Inserts Directory]]
 **     [[elisp:(server-start)][Server Start]]   -- Needed for Send Link
@@ -129,26 +142,18 @@ Subscribe to the list you want to post to i.e. that has nothing
 To finally post, visit the group you want to post a message to
 and hit a if you want to write a new posting or use f
 respectively F for followups.
-####+BEGIN: blee:bxPanel:foldingSection :outLevel 1 :sep t :title "Panel Tree Navigation" :anchor "panelTreeNav" :extraInfo ""
-* /[[elisp:(beginning-of-buffer)][|^]]  [[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]] [[elisp:(delete-other-windows)][|1]]/ 
-* [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(org-cycle)][| *Panel Tree Navigation:* |]] <<panelTreeNav>>   [[elisp:(org-shifttab)][<)]] E|
-####+END
-####+BEGIN: blee:bxPanel:linedTreeNavigator :model "auto" :outLevel 2
-** [[elisp:(show-all)][|N]] [[elisp:(blee:menu-sel:outline:popupMenu)][+-]] [[elisp:(blee:menu-sel:navigation:popupMenu)][==]]    <<~sending~>> ~nil:~ :inDblock 
-** [[elisp:(show-all)][|N]] [[elisp:(blee:menu-sel:outline:popupMenu)][+-]] [[elisp:(blee:menu-sel:navigation:popupMenu)][==]]    <<~sending~>> ~nil:~ :inDblock 
-** [[elisp:(show-all)][|n]] [[elisp:(blee:menu-sel:outline:popupMenu)][+-]] [[elisp:(blee:menu-sel:navigation:popupMenu)][==]] [[elisp:(blee:bnsm:panel-goto "/bisos/panels/blee-core/mail/mailings/_nodeBase_")][@ =mailings= @]]    ::  Node: /mailings/
-** [[elisp:(show-all)][|n]] [[elisp:(blee:menu-sel:outline:popupMenu)][+-]] [[elisp:(blee:menu-sel:navigation:popupMenu)][==]] [[elisp:(blee:bnsm:panel-goto "/bisos/panels/blee-core/mail/reading/_nodeBase_")][@ =reading= @]]    ::  Node: /reading/
-** [[elisp:(show-all)][|n]] [[elisp:(blee:menu-sel:outline:popupMenu)][+-]] [[elisp:(blee:menu-sel:navigation:popupMenu)][==]] [[elisp:(blee:bnsm:panel-goto "/bisos/panels/blee-core/mail/sending/_nodeBase_")][@ =sending= @]]    ::  Node: /sending/
-** [[elisp:(show-all)][|N]] [[elisp:(blee:menu-sel:outline:popupMenu)][+-]] [[elisp:(blee:menu-sel:navigation:popupMenu)][==]]    <<~sending~>> ~nil:~ :inDblock 
-** [[elisp:(show-all)][|n]] [[elisp:(blee:menu-sel:outline:popupMenu)][+-]] [[elisp:(blee:menu-sel:navigation:popupMenu)][==]] [[elisp:(blee:bnsm:panel-goto "/bisos/panels/blee-core/mail/_nodeBase_")][@ =mail= @]]    ::  Node: /mail/
-** [[elisp:(show-all)][|n]] [[elisp:(blee:menu-sel:outline:popupMenu)][+-]] [[elisp:(blee:menu-sel:navigation:popupMenu)][==]] [[elisp:(blee:bnsm:panel-goto "/bisos/panels/blee-core/_nodeBase_")][@ =blee-core= @]]    ::  Node: /blee-core/
-** [[elisp:(org-shifttab)][<)]] E|
-####+END
 ####+BEGIN: bxPanel:realms:user|extend
 * [[elisp:(show-all)][(>]]                                [[elisp:(org-cycle)][| *━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━* |]]                         
 ** Extended By: /bxo/r3/iso/piu_mbFullUsage/realmPanels/blee-core/mail/sending/_nodeBase_/general.org :*
 * /[[elisp:(beginning-of-buffer)][|^]]  [[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]] [[elisp:(delete-other-windows)][|1]]/ 
-* [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_     [[elisp:(org-cycle)][| _Mohsen's Full UsageEnv Synergy Extensions_: |]]    [[elisp:(org-shifttab)][<)]] E|
+* [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_     [[elisp:(org-cycle)][| _Mohsen's Full UsageEnv Mail Sending Extensions_: |]]    [[elisp:(org-shifttab)][<)]] E|
+* /[[elisp:(beginning-of-buffer)][|^]]  [[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]] [[elisp:(delete-other-windows)][|1]]/ 
+* [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(org-cycle)][| *Start Mail (msdt):* |]]    [[elisp:(org-shifttab)][<)]] E|
+** [[elisp:(show-all)][(>]]    [[elisp:(msdt:compose/with-file "/bxo/usg/bystar/BUE/mailings/start/family.fa/blank/basicText.fa/content.mail")][family@.text.fa]]        [[file:/bxo/usg/bystar/BUE/mailings/start/family.fa/blank/basicText.fa/content.mail][Visit MailingFile]]     [[elisp:(org-shifttab)][<)]] E|
+* /[[elisp:(beginning-of-buffer)][|^]]  [[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]] [[elisp:(delete-other-windows)][|1]]/ 
+* [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(org-cycle)][| *Static Mailings (msdt):* |]]    [[elisp:(org-shifttab)][<)]] E|
+** [[elisp:(show-all)][(>]]    [[elisp:(msdt:compose/with-file "/bxo/usg/bystar/BUE/mailings/statics/swaggerInvokerIntro/mailingStatic/content.mail")][static:latex:swaggerInvokerIntro]]        [[file:/bxo/usg/bystar/BUE/mailings/statics/swaggerInvokerIntro/mailingStatic/content.mail][Visit MailingFile]]     [[elisp:(org-shifttab)][<)]] E|
+
 *  T:  
 * [[elisp:(bbdbOneWin)][Look Up A Person]]    [[elisp:(call-interactively 'bbdb-create)][Create a New Entry]]  
 * 
