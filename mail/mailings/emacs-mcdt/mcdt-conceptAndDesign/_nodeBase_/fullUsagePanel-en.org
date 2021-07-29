@@ -43,8 +43,8 @@
 * [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(org-cycle)][| *Mail Composition, Distrubution And Tracking -- Design:* |]]    [[elisp:(org-shifttab)][<)]] E|
 ####+END
 ** Consists Of Two Parts:
-1) BISOS-MCDT-APP
-2) Blee-MCDT-Pkg
+1) Blee-MCDT-Pkg -- Given a mailing file, creates functions for sending of that mailing
+2) BISOS-MCDT-APP -- Creates the mailing and needed framework for editing the content
 ####+BEGIN: blee:bxPanel:foldingSection :outLevel 1 :sep t :title "BLEE-MCDT-PKG -- Elisp Design" :anchor "" :extraInfo ""
 * /[[elisp:(beginning-of-buffer)][|^]]  [[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]] [[elisp:(delete-other-windows)][|1]]/ 
 * [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(org-cycle)][| *BLEE-MCDT-PKG -- Elisp Design:* |]]    [[elisp:(org-shifttab)][<)]] E|
