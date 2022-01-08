@@ -68,7 +68,8 @@
 ****   ==== /Names/         --  nameProc.sh    -- seedNameDistProc.sh  -- ~/BUE/names 
 ****   ==== /Mailings/      --  mailingProc.sh -- seedMailingProc.sh   -- ~/BUE/mailings 
 ****   ==== /Distributions/ --  distProc.sh    -- seedNameDistProc.sh  -- ~/BUE/mailings/some/dist  
-***    ========  /Key Lcnt Mailing Objects/
+***    ========  /Key Lcnt M
+ailing Objects/
 ****   ==== /Publishable Lcnt/      --  lcnLcntGens.sh -p form=mailLcnt             -- lcntProc.sh  -- /lcnt/../docName
 ****   ==== /Private Lcnt/          --  lcnLcntGens.sh -p form=mailLcnt -p nu=000   -- lcntProc.sh  -- /lcnt/../docName
 ****   ==== /Mailings + Pub Lcnt/   --  bxtStartMailing.sh  -i startObjectGen htmlPubLcnt path -- /lcnt/../docName/mailing
