@@ -31,12 +31,30 @@
 ####+BEGIN: blee:bxPanel:foldingSection :outLevel 1 :title "Overview" :anchor "Panel"
 * [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(org-cycle)][| *Overview:* |]] <<Panel>>   [[elisp:(org-shifttab)][<)]] E|
 ####+END
-** 
+** +
+** Documentaion From Source:
+;;; Given a self-contained mailingFile (usually called content.mail) or within a mailingFile-buffer, using macros, mcdt creates
+;;; a series of commands that allow for customized-compostion, sending and distribution of those
+;;; messages.
+;;;
+;;; The mailingFile should be in correct RFC-822 format. For example, you can not have an empty To: field.
+;;;
+;;; Customized-compostion of mailings, takes of two forms.
+;;;  - direct editing -- :extSrcBase nil
+;;;  - external source editing -- :extSrcBase "."  -- The result is then
+;;;    included in the mailingFile through a dblock.
+;;;
+;;; Primary command usage interfaces are:
+;;; - mcdt:setup-and-compose/with-curBuffer -- Used the mailing buffer -- Uses /with-file  in turn.
+;;; - mcdt:setup-and-compose/with-file  -- Used in Blee Panels
+;;; - mcdt:setup/with-curBuffer -- Just create the mailing ffunction as mcdt:compose/mailingName.
+;;;
+;;; Compose results into a new frame and a ready buffer in a /tmp ephemera base.
 ** Mailing Categories:
 1) Editable -- Starting point for Composing -- Text or internal html
 1.1) Editable-With-External-Source
-3) Static -- Ready to be sent -- static content
-4) Dynamic -- Ready to be sent -- templated content
+3) Static -- Ready to be sent -- static content -- No editing
+4) Dynamic -- Ready to be sent -- templated content -- info inserted at execution time.
 ** B|
 ####+BEGIN: blee:bxPanel:foldingSection :outLevel 1 :sep t :title "Mail Composition, Distrubution And Tracking -- Design" :anchor "" :extraInfo ""
 * /[[elisp:(beginning-of-buffer)][|^]]  [[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]] [[elisp:(delete-other-windows)][|1]]/ 
@@ -56,31 +74,64 @@ There are two layers
 User documentation is primarily limited to mcdt-if.el
 
 The primary abstractions are:
-- A Mailing -- Mailing-File
+- A Mailing-Base Directory -- in theory this can be  anywhere.
+  Usually created with bueMailingSetup.sh
+  For ephemera compose, typically we have {en,fa}/fromLineTag/{plainText,tex,tex-pdf}
+- A Mailing-File -- Mailing-File -- called: content.mail
   A Mailing is a read-only static representation of parameters of an outgoing email. It is a single file.
+- A Mailing-Buffer -- A mail buffer, created using Mailing-File. Not the buffer of Mailing-File.
+- A Mailing-Ext-Src --latex src for content editing
+- Mailing Setup -- Converts Mailing-File to set of Mailing-Commands, then can be used for Mailing-Execution.
+- Mailing-Commands -- defmacro generated as some of:
+
+  1) mcdt:compose/mailingName    -- Creates an unsent buffer for content editing with perhaps ephemera extSrc
+  2) mcdt:originate/mailingName  -- Creates an unsent buffer for header editing without ephemera extSrc
+  3) mcdt:redraft/mailingName    -- subjetc to ctl u edits the current "unsent mail"
+  4) mcdt:batch/mailingName
+  5) x bbdb
+  6) web-url web-mailto
+
+     Some of these commands receive interactive args that are
+     implemented in the old bxms-compose-from-base.
+     TODO: these need to be revisited and documented.
+
+  As to which of the above is generated is controlded by :type field of X-MailingParams:
+- X-Mailing-Name: is used for creation of Mailing-Commands
+- X-MailingParams: is in the format of literal named args
+  :extSrc "." -- :extSrc nil
+     When :extSrc is nil --- Mailing-File is self contained
+     When :extSrc is path --- Some of the content of Mailing-File comes from content of path
+  :type is one of 'compose | 'redraft | 'dynamic
+     When :type id 'compose --- The mailing can also be editable
+        The following commands are generated:
+        mcdt:compose, mcdt:originate/mailingName,
+     When :type id 'redraft --- content of mailing-file can be applied to current unsent buffer
+        Foe example re-uses current unsent buffer's subject line ... Used for replying
+        The following commands are generated:
+        mcdt:compose/mailingName, mcdt:originate/mailingName
+     When :type id 'dynamic --- indicates that the mailing is a for letter
+        For example re-uses current unsent buffer's subject line ... Used for replying
+        The following commands are generated:
+        mcdt:originate/mailingName
+- Mailing-Invocation -- The user's act of executing a Mailing-Command is called: Mailing-Invocation.
+  A mailing can be invoked in different ways and the fact of specific invocation is captured
+  in the 822-bus with "X-mailing-invocation: commandNameComesHere"
+  X-Mailing is used for mailings preparation. X-mailing is used during processing.
+- Mailing-Invocation-Args -- Each Mailing-Invocation can carry with it a number of elisp command args.
+  The args are then carrierd through mcdt-if.el and passed to the old bxms-compose-from-base
 - An Unsent-Mailing --
   An Unsent-Mailing is a buffer generated from a Mailing-File that can be sent.
-- External-Source-Content -- LaTeX-Body
-
-The primary argument to most functions are
-1) <mailingFilePath
-2) <mailingBuf
-3) <mailingBasePath
-4) <mailingName -- Based on X-Mailing-Name:
-5) <mailingParams -- Based on X-Mailing-Params:
-   org-dynamic-block-insert-dblock gets its parameters
-5.1) :extSrc "." -- :extSrc nil
-5.2) :type 'compose | 'redraft | 'static | 'dynamic
-
-The following mailing commands are defmacro generated:
-
-1) mcdt:compose/mailingName    -- Creates a compose buffer
-2) mcdt:redraft/mailingName    -- subjetc to ctl u edits the current "unsent mail"
-3) mcdt:batch/mailingName
-4) x bbdb
-5) web-url web-mailto
+- :extSrc param of X-MailingParams is used for External-Source-Content -- LaTeX-Body
+- mailing.ttytex/mailing.mastex -- content of a mailing.
 
 B|
+####+BEGIN: blee:bxPanel:foldingSection :outLevel 1 :sep t :title "Mailings Delivery Care/Hints/Policy/Procedure" :anchor "" :extraInfo "Increasing Inbox Delivery Rate"
+* /[[elisp:(beginning-of-buffer)][|^]]  [[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]] [[elisp:(delete-other-windows)][|1]]/
+* [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(org-cycle)][| *Mailings Delivery Care/Hints/Policy/Procedure:* |]]  Increasing Inbox Delivery Rate  [[elisp:(org-shifttab)][<)]] E|
+####+END
+** +
+**             https://support.google.com/mail/answer/81126?hl=en
+** B|
 ####+BEGIN: blee:bxPanel:foldingSection :outLevel 1 :sep t :title "Elisp Implementation Plan" :anchor "" :extraInfo ""
 * /[[elisp:(beginning-of-buffer)][|^]]  [[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]] [[elisp:(delete-other-windows)][|1]]/ 
 * [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(org-cycle)][| *Elisp Implementation Plan:* |]]    [[elisp:(org-shifttab)][<)]] E|
@@ -97,9 +148,9 @@ B|
 ** TODO Look into org-mime
 ** TODO Figure how to deal with mail citations -- htmlized supercite
 ** 
-####+BEGIN: blee:bxPanel:foldingSection :outLevel 2 :sep t :title "mcdt.el" :anchor "" :extraInfo "file:/bisos/blee/env/boot/mcdt.el"
-** /[[elisp:(beginning-of-buffer)][|^]]  [[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]] [[elisp:(delete-other-windows)][|1]]/ 
-** [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(org-cycle)][| /mcdt.el:/ |]]  file:/bisos/blee/env/boot/mcdt.el  [[elisp:(org-shifttab)][<)]] E|
+####+BEGIN: blee:bxPanel:foldingSection :outLevel 2 :sep t :title "mcdt-if.el" :anchor "" :extraInfo "file:/bisos/blee/env2/boot/mcdt-if.el"
+** /[[elisp:(beginning-of-buffer)][|^]]  [[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]] [[elisp:(delete-other-windows)][|1]]/
+** [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(org-cycle)][| /mcdt-if.el:/ |]]  file:/bisos/blee/env2/boot/mcdt-if.el  [[elisp:(org-shifttab)][<)]] E|
 ####+END
 *** 
 *** Per Mailing commands creation
