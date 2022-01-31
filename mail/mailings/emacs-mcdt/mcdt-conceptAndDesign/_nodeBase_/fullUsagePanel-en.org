@@ -57,7 +57,7 @@
 3) Static -- Ready to be sent -- static content -- No editing
 4) Dynamic -- Ready to be sent -- templated content -- info inserted at execution time.
 ** B|
-####+BEGIN: blee:bxPanel:foldingSection :outLevel 1 :sep t :title "Mail Composition, Distrubution And Tracking -- Design" :anchor "" :extraInfo ""
+####+BEGIN: blee:bxPanel:foldingSection :outLevel 1 :sep t :title "Mail Templating, Distrubution And Tracking -- Design" :anchor "" :extraInfo ""
 * /[[elisp:(beginning-of-buffer)][|^]]  [[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]] [[elisp:(delete-other-windows)][|1]]/
 * [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(outline-show-subtree+toggle)][| *Mail Composition, Distrubution And Tracking -- Design:* |]]    [[elisp:(org-shifttab)][<)]] E|
 ####+END
@@ -69,16 +69,18 @@
 * [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(outline-show-subtree+toggle)][| *BLEE-MCDT-PKG -- Elisp Design:* |]]    [[elisp:(org-shifttab)][<)]] E|
 ####+END
 ** Overview And Direction:
-There are two layers 
-1) mcdt-if.el  --- User Interface (currently mcdt.el)
-2) mcdt-lib.el   --- Core -- base functions currently /bisos/blee/env//boot//bystar-mail-lib.el (revisit name)
+There are two layers
+MTDT consists of:
+1)   mtdt-lib.el    --- General purpose libraries
+2)   mtdt-newMail.el   --- Initial outgoing email -- User Interface (currently mcdt-if.el)
+3)   mtdt-contextedMail.el  --- Replies and Forwards
 User documentation is primarily limited to mcdt-if.el
 
 The primary abstractions are:
 - A Mailing-Base Directory -- in theory this can be  anywhere.
   Usually created with bueMailingSetup.sh
   For ephemera compose, typically we have {en,fa}/fromLineTag/{plainText,tex,tex-pdf}
-- A Mailing-File -- Mailing-File -- called: content.mail
+- A Mailing-File -- Mailing-File -- called: content.mail or content.msgOrg
   A Mailing is a read-only static representation of parameters of an outgoing email. It is a single file.
 - A Mailing-Buffer -- A mail buffer, created using Mailing-File. Not the buffer of Mailing-File.
 - A Mailing-Ext-Src --latex src for content editing
@@ -137,7 +139,9 @@ B|
 * /[[elisp:(beginning-of-buffer)][|^]]  [[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]] [[elisp:(delete-other-windows)][|1]]/
 * [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(outline-show-subtree+toggle)][| *Elisp Implementation Plan:* |]]    [[elisp:(org-shifttab)][<)]] E|
 ####+END
-** 
+** +
+** TODO mcdt is to be renamed mtdt
+** TODO in mcdt look for content.mail or content.msgOrg
 ** TODO create mcdt-lib.el as cleaned up replacement for exisiting mailing-lib.el
 ** TODO Package mcdt for elpa
 ** TODO Revisit bueMailingStatic.sh templates -- Headers becomes a single file, no directory of its own
@@ -146,9 +150,10 @@ B|
 ** TODO On entry into "unsent mailing" buffer, update all dblocks
 ** TODO Revisit, to save current all tex buffers then  [[elisp:(lsip-local-run-command-here "lcntProc.sh -v -n showRun -i buildResultsRelease")][lcntProc.sh -v -n showRun -i buildResultsRelease]]
 ** TODO Modernize mailing.ttytex buffer
-** TODO Look into org-mime
+** WAITING Look into org-mime and org-msg
 ** TODO Figure how to deal with mail citations -- htmlized supercite
-** 
+** TODO Adopt and automate LaTeX email quoting ---  https://tex.stackexchange.com/questions/49587/typesetting-email-with-internet-style-quoting-using-latex
+** -
 ####+BEGIN: blee:bxPanel:foldingSection :outLevel 2 :sep t :title "mcdt-if.el" :anchor "" :extraInfo "file:/bisos/blee/env2/boot/mcdt-if.el"
 ** /[[elisp:(beginning-of-buffer)][|^]]  [[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]] [[elisp:(delete-other-windows)][|1]]/
 ** [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(outline-show-subtree+toggle)][| /mcdt-if.el:/ |]]  file:/bisos/blee/env2/boot/mcdt-if.el  [[elisp:(org-shifttab)][<)]] E|
