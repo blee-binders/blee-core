@@ -35,8 +35,16 @@
 * [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(org-cycle)][| *Overview:* |]] <<Panel>>   [[elisp:(org-shifttab)][<)]] E|
 ####+END
 ** 
-** Overview Comes Here.
+** Scope of this panel is mail origination, mailings, incoming mail, mail address management
+** mailing lists subscription
 ** B|
+####+BEGIN: blee:bxPanel:linkWithTreeElem :model "auto" :sep nil :outLevel 2 :agenda nil :foldDesc "Outgoing Mail" :destDesc "Sending -- Mail Origination" :dest "/bisos/panels/blee-core/mail/sending/_nodeBase_"
+* [[elisp:(show-all)][(>]] [[elisp:(blee:menu-sel:outline:popupMenu)][+-]] [[elisp:(blee:menu-sel:navigation:popupMenu)][==]] [[elisp:(blee:bnsm:panel-goto "/bisos/panels/blee-core/mail/sending/_nodeBase_")][@ ~Sending -- Mail Origination~ @]]   ::  [[elisp:(org-cycle)][| /Outgoing Mail/ |]]  [[elisp:(org-shifttab)][<)]] E|
+####+END
+####+BEGIN: blee:bxPanel:linkWithTreeElem :model "auto" :sep nil :outLevel 2 :agenda nil :foldDesc "Incoming Mail" :destDesc "Mail Reading" :dest "/bisos/panels/blee-core/mail/sending/_nodeBase_"
+* [[elisp:(show-all)][(>]] [[elisp:(blee:menu-sel:outline:popupMenu)][+-]] [[elisp:(blee:menu-sel:navigation:popupMenu)][==]] [[elisp:(blee:bnsm:panel-goto "/bisos/panels/blee-core/mail/sending/_nodeBase_")][@ ~Mail Reading~ @]]   ::  [[elisp:(org-cycle)][| /Incoming Mail/ |]]  [[elisp:(org-shifttab)][<)]] E|
+####+END
+
 ####+BEGIN: blee:bxPanel:separator :outLevel 1
 * /[[elisp:(beginning-of-buffer)][|^]] [[elisp:(blee:menu-sel:navigation:popupMenu)][==]] [[elisp:(delete-other-windows)][|1]]/
 ####+END

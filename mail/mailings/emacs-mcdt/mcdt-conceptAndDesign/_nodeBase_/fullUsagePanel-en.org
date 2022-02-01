@@ -3,20 +3,21 @@
 #+title: emacs-mcdt/mcdt-conceptAndDesign
 #+roam_tags: branch
 #+roam_key: mailings/emacs-mcdt/mcdt-conceptAndDesign
-[[file:../../_nodeBase_/fullUsagePanel-en.org][mailings/emacs-mcdt]]
+[[roam:mailings/emacs-mcdt]]
 ####+END
 ####+BEGIN: blee:bxPanel:topPanelControls
 *  [[elisp:(org-cycle)][|#Control|]] :: [[elisp:(blee:bnsm:menu-back)][Back]] [[elisp:(toggle-read-only)][read/wr]] | [[elisp:(show-all)][Show-All]]  [[elisp:(org-shifttab)][Overview]]  [[elisp:(progn (org-shifttab) (org-content))][Content]] | [[elisp:(delete-other-windows)][(1)]] | [[elisp:(progn (save-buffer) (kill-buffer))][S&Q]] [[elisp:(save-buffer)][Save]] [[elisp:(kill-buffer)][Quit]] [[elisp:(bury-buffer)][Bury]]  [[elisp:(magit)][Magit]]  [[elisp:(org-cycle)][| ]]
+**  [[elisp:(bap:magit:bisos:current-bpo-repos/visit)][BPO-Repos-Magit]] ||
 **  [[elisp:(blee:buf:re-major-mode)][Re-Major-Mode]] ||  [[elisp:(org-dblock-update-buffer-bx)][Update Buf Dblocks]] || [[elisp:(org-dblock-bx-blank-buffer)][Blank Buf Dblocks]] || [[elisp:(bx:panel:variablesShow)][bx:panel:variablesShow]]
-**  [[elisp:(blee:menu-sel:comeega:maintenance:popupMenu)][||Maintenance]] 
-**  This File :: *= /bisos/panels/blee-core/mail/mailings/emacs-mcdt/mcdt-conceptAndDesign/_nodeBase_/fullUsagePanel-en.org =* 
+**  [[elisp:(blee:menu-sel:comeega:maintenance:popupMenu)][||Maintenance]]
+**  This File :: *= /bisos/git/auth/bxRepos/blee-binders/blee-core/mail/mailings/emacs-mcdt/mcdt-conceptAndDesign/_nodeBase_/fullUsagePanel-en.org =*
 *  [[elisp:(org-cycle)][|#Select|]]  :: (Results: [[elisp:(blee:bnsm:results-here)][Here]] | [[elisp:(blee:bnsm:results-split-below)][Below]] | [[elisp:(blee:bnsm:results-split-right)][Right]] | [[elisp:(blee:bnsm:results-other)][Other]] | [[elisp:(blee:bnsm:results-popup)][Popup]]) (Select:  [[elisp:(lsip-local-run-command "lpCurrentsAdmin.sh -i currentsGetThenShow")][Show Currents]]  [[elisp:(lsip-local-run-command "lpCurrentsAdmin.sh")][lpCurrentsAdmin.sh]] ) [[elisp:(org-cycle)][| ]]
 **  #See:  (Window: [[elisp:(blee:bnsm:results-window-show)][?]] | [[elisp:(blee:bnsm:results-window-set 0)][0]] | [[elisp:(blee:bnsm:results-window-set 1)][1]] | [[elisp:(blee:bnsm:results-window-set 2)][2]] | [[elisp:(blee:bnsm:results-window-set 3)][3]] ) || [[elisp:(lsip-local-run-command-here "echo pushd dest")][echo pushd dir]] || [[elisp:(lsip-local-run-command-here "lsf")][lsf]] || [[elisp:(lsip-local-run-command-here "pwd")][pwd]] |
 **  [[elisp:(org-cycle)][|#Destinations|]] :: [[Evolution]] | [[Maintainers]]  [[elisp:(org-cycle)][| ]]
 **  #See:  [[elisp:(bx:bnsm:top:panel-blee)][Blee]] | [[elisp:(bx:bnsm:top:panel-listOfDocs)][All Docs]]  E|
 ####+END
 ####+BEGIN: blee:bxPanel:title :panelType "=bxPanel=" :title "auto"
-* [[elisp:(show-all)][(>]] ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 
+* [[elisp:(show-all)][(>]] ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 *   [[img-link:file:/bisos/blee/env/images/fpfByStarElipseTop-50.png][http://www.freeprotocols.org]]_ _   ~Node:: mailings/emacs-mcdt -- mcdt-conceptAndDesign~   [[img-link:file:/bisos/blee/env/images/fpfByStarElipseBottom-50.png][http://www.by-star.net]]
 * ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━  [[elisp:(org-shifttab)][<)]] E|
 ####+END:
@@ -24,68 +25,123 @@
 * [[elisp:(show-all)][(>]] [[elisp:(describe-function 'org-dblock-write:blee:bxPanel:terseTreeNavigator)][dbf]]
 * [[elisp:(show-all)][|n]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_   General Panels ::   [[img-link:file:/bisos/blee/env/images/bystarInside.jpg][http://www.by-star.net]] *|*  [[elisp:(find-file "/libre/ByStar/InitialTemplates/activeDocs/listOfDocs/fullUsagePanel-en.org")][BxDE Top Panel]] *|* [[elisp:(blee:bnsm:panel-goto "/libre/ByStar/InitialTemplates/activeDocs/planning/Main")][ByStar Planning]]
 
-*   *Siblings*   :: [[elisp:(blee:bnsm:panel-goto "/bisos/panels/blee-core/mail/mailings/emacs-mcdt/mcdt-conceptAndDesign/_nodeBase_")][ =mcdt-conceptAndDesign= ]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/panels/blee-core/mail/mailings/emacs-mcdt/mcdt-usage/_nodeBase_")][ =mcdt-usage= ]] *|* 
-*   /Ancestors/  :: [[elisp:(blee:bnsm:panel-goto "/bisos/panels/blee-core/mail/mailings/emacs-mcdt/_nodeBase_")][ =emacs-mcdt= ]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/panels/blee-core/mail/mailings/_nodeBase_")][ =mailings= ]] *|* 
+*   *Siblings*   :: [[elisp:(blee:bnsm:panel-goto "/bisos/git/auth/bxRepos/blee-binders/blee-core/mail/mailings/emacs-mcdt/mcdt-conceptAndDesign/_nodeBase_")][ =mcdt-conceptAndDesign= ]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/git/auth/bxRepos/blee-binders/blee-core/mail/mailings/emacs-mcdt/mcdt-usage/_nodeBase_")][ =mcdt-usage= ]] *|*
+*   /Ancestors/  :: [[elisp:(blee:bnsm:panel-goto "/bisos/git/auth/bxRepos/blee-binders/blee-core/mail/mailings/emacs-mcdt/_nodeBase_")][ =emacs-mcdt= ]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/git/auth/bxRepos/blee-binders/blee-core/mail/mailings/_nodeBase_")][ =mailings= ]] *|*
 *                                   _━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━_                          [[elisp:(org-shifttab)][<)]] E|
 ####+END
 ####+BEGIN: blee:bxPanel:foldingSection :outLevel 1 :title "Overview" :anchor "Panel"
-* [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(org-cycle)][| *Overview:* |]] <<Panel>>   [[elisp:(org-shifttab)][<)]] E|
+* [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(outline-show-subtree+toggle)][| *Overview:* |]] <<Panel>>   [[elisp:(org-shifttab)][<)]] E|
 ####+END
-** 
+** +
+** Documentaion From Source:
+;;; Given a self-contained mailingFile (usually called content.mail) or within a mailingFile-buffer, using macros, mcdt creates
+;;; a series of commands that allow for customized-compostion, sending and distribution of those
+;;; messages.
+;;;
+;;; The mailingFile should be in correct RFC-822 format. For example, you can not have an empty To: field.
+;;;
+;;; Customized-compostion of mailings, takes of two forms.
+;;;  - direct editing -- :extSrcBase nil
+;;;  - external source editing -- :extSrcBase "."  -- The result is then
+;;;    included in the mailingFile through a dblock.
+;;;
+;;; Primary command usage interfaces are:
+;;; - mcdt:setup-and-compose/with-curBuffer -- Used the mailing buffer -- Uses /with-file  in turn.
+;;; - mcdt:setup-and-compose/with-file  -- Used in Blee Panels
+;;; - mcdt:setup/with-curBuffer -- Just create the mailing ffunction as mcdt:compose/mailingName.
+;;;
+;;; Compose results into a new frame and a ready buffer in a /tmp ephemera base.
 ** Mailing Categories:
 1) Editable -- Starting point for Composing -- Text or internal html
 1.1) Editable-With-External-Source
-3) Static -- Ready to be sent -- static content
-4) Dynamic -- Ready to be sent -- templated content
+3) Static -- Ready to be sent -- static content -- No editing
+4) Dynamic -- Ready to be sent -- templated content -- info inserted at execution time.
 ** B|
-####+BEGIN: blee:bxPanel:foldingSection :outLevel 1 :sep t :title "Mail Composition, Distrubution And Tracking -- Design" :anchor "" :extraInfo ""
-* /[[elisp:(beginning-of-buffer)][|^]]  [[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]] [[elisp:(delete-other-windows)][|1]]/ 
-* [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(org-cycle)][| *Mail Composition, Distrubution And Tracking -- Design:* |]]    [[elisp:(org-shifttab)][<)]] E|
+####+BEGIN: blee:bxPanel:foldingSection :outLevel 1 :sep t :title "Mail Templating, Distrubution And Tracking -- Design" :anchor "" :extraInfo ""
+* /[[elisp:(beginning-of-buffer)][|^]]  [[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]] [[elisp:(delete-other-windows)][|1]]/
+* [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(outline-show-subtree+toggle)][| *Mail Composition, Distrubution And Tracking -- Design:* |]]    [[elisp:(org-shifttab)][<)]] E|
 ####+END
 ** Consists Of Two Parts:
 *** 1) Blee-MCDT-Pkg -- Given a mailing file, creates functions for sending of that mailing
 *** 2) BISOS-MCDT-APP -- Creates the mailing and needed framework for editing the content
 ####+BEGIN: blee:bxPanel:foldingSection :outLevel 1 :sep t :title "BLEE-MCDT-PKG -- Elisp Design" :anchor "" :extraInfo ""
-* /[[elisp:(beginning-of-buffer)][|^]]  [[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]] [[elisp:(delete-other-windows)][|1]]/ 
-* [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(org-cycle)][| *BLEE-MCDT-PKG -- Elisp Design:* |]]    [[elisp:(org-shifttab)][<)]] E|
+* /[[elisp:(beginning-of-buffer)][|^]]  [[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]] [[elisp:(delete-other-windows)][|1]]/
+* [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(outline-show-subtree+toggle)][| *BLEE-MCDT-PKG -- Elisp Design:* |]]    [[elisp:(org-shifttab)][<)]] E|
 ####+END
 ** Overview And Direction:
-There are two layers 
-1) mcdt-if.el  --- User Interface (currently mcdt.el)
-2) mcdt-lib.el   --- Core -- base functions currently /bisos/blee/env//boot//bystar-mail-lib.el (revisit name)
+There are two layers
+MTDT consists of:
+1)   mtdt-lib.el    --- General purpose libraries
+2)   mtdt-newMail.el   --- Initial outgoing email -- User Interface (currently mcdt-if.el)
+3)   mtdt-contextedMail.el  --- Replies and Forwards
 User documentation is primarily limited to mcdt-if.el
 
 The primary abstractions are:
-- A Mailing -- Mailing-File
+- A Mailing-Base Directory -- in theory this can be  anywhere.
+  Usually created with bueMailingSetup.sh
+  For ephemera compose, typically we have {en,fa}/fromLineTag/{plainText,tex,tex-pdf}
+- A Mailing-File -- Mailing-File -- called: content.mail or content.msgOrg
   A Mailing is a read-only static representation of parameters of an outgoing email. It is a single file.
+- A Mailing-Buffer -- A mail buffer, created using Mailing-File. Not the buffer of Mailing-File.
+- A Mailing-Ext-Src --latex src for content editing
+- Mailing Setup -- Converts Mailing-File to set of Mailing-Commands, then can be used for Mailing-Execution.
+- Mailing-Commands -- defmacro generated as some of:
+
+  1) mcdt:compose/mailingName    -- Creates an unsent buffer for content editing with perhaps ephemera extSrc
+  2) mcdt:originate/mailingName  -- Creates an unsent buffer for header editing without ephemera extSrc
+  3) mcdt:redraft/mailingName    -- subjetc to ctl u edits the current "unsent mail"
+  4) mcdt:batch/mailingName
+  5) x bbdb
+  6) web-url web-mailto
+
+     Some of these commands receive interactive args that are
+     implemented in the old bxms-compose-from-base.
+     TODO: these need to be revisited and documented.
+
+  As to which of the above is generated is controlded by :type field of X-MailingParams:
+- X-Mailing-Name: is used for creation of Mailing-Commands
+- X-MailingParams: is in the format of literal named args
+  :extSrc "." -- :extSrc nil
+     When :extSrc is nil --- Mailing-File is self contained
+     When :extSrc is path --- Some of the content of Mailing-File comes from content of path
+  :type is one of 'compose | 'redraft | 'dynamic
+     When :type id 'compose --- The mailing can also be editable
+        The following commands are generated:
+        mcdt:compose, mcdt:originate/mailingName,
+     When :type id 'redraft --- content of mailing-file can be applied to current unsent buffer
+        Foe example re-uses current unsent buffer's subject line ... Used for replying
+        The following commands are generated:
+        mcdt:compose/mailingName, mcdt:originate/mailingName
+     When :type id 'dynamic --- indicates that the mailing is a for letter
+        For example re-uses current unsent buffer's subject line ... Used for replying
+        The following commands are generated:
+        mcdt:originate/mailingName
+- Mailing-Invocation -- The user's act of executing a Mailing-Command is called: Mailing-Invocation.
+  A mailing can be invoked in different ways and the fact of specific invocation is captured
+  in the 822-bus with "X-mailing-invocation: commandNameComesHere"
+  X-Mailing is used for mailings preparation. X-mailing is used during processing.
+- Mailing-Invocation-Args -- Each Mailing-Invocation can carry with it a number of elisp command args.
+  The args are then carrierd through mcdt-if.el and passed to the old bxms-compose-from-base
 - An Unsent-Mailing --
   An Unsent-Mailing is a buffer generated from a Mailing-File that can be sent.
-- External-Source-Content -- LaTeX-Body
-
-The primary argument to most functions are
-1) <mailingFilePath
-2) <mailingBuf
-3) <mailingBasePath
-4) <mailingName -- Based on X-Mailing-Name:
-5) <mailingParams -- Based on X-Mailing-Params:
-   org-dynamic-block-insert-dblock gets its parameters
-5.1) :extSrc "." -- :extSrc nil
-5.2) :type 'compose | 'redraft | 'static | 'dynamic
-
-The following mailing commands are defmacro generated:
-
-1) mcdt:compose/mailingName    -- Creates a compose buffer
-2) mcdt:redraft/mailingName    -- subjetc to ctl u edits the current "unsent mail"
-3) mcdt:batch/mailingName
-4) x bbdb
-5) web-url web-mailto
+- :extSrc param of X-MailingParams is used for External-Source-Content -- LaTeX-Body
+- mailing.ttytex/mailing.mastex -- content of a mailing.
 
 B|
-####+BEGIN: blee:bxPanel:foldingSection :outLevel 1 :sep t :title "Elisp Implementation Plan" :anchor "" :extraInfo ""
-* /[[elisp:(beginning-of-buffer)][|^]]  [[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]] [[elisp:(delete-other-windows)][|1]]/ 
-* [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(org-cycle)][| *Elisp Implementation Plan:* |]]    [[elisp:(org-shifttab)][<)]] E|
+####+BEGIN: blee:bxPanel:foldingSection :outLevel 1 :sep t :title "Mailings Delivery Care/Hints/Policy/Procedure" :anchor "" :extraInfo "Increasing Inbox Delivery Rate"
+* /[[elisp:(beginning-of-buffer)][|^]]  [[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]] [[elisp:(delete-other-windows)][|1]]/
+* [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(outline-show-subtree+toggle)][| *Mailings Delivery Care/Hints/Policy/Procedure:* |]]  Increasing Inbox Delivery Rate  [[elisp:(org-shifttab)][<)]] E|
 ####+END
-** 
+** +
+**             https://support.google.com/mail/answer/81126?hl=en
+** B|
+####+BEGIN: blee:bxPanel:foldingSection :outLevel 1 :sep t :title "Elisp Implementation Plan" :anchor "" :extraInfo ""
+* /[[elisp:(beginning-of-buffer)][|^]]  [[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]] [[elisp:(delete-other-windows)][|1]]/
+* [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(outline-show-subtree+toggle)][| *Elisp Implementation Plan:* |]]    [[elisp:(org-shifttab)][<)]] E|
+####+END
+** +
+** TODO mcdt is to be renamed mtdt
+** TODO in mcdt look for content.mail or content.msgOrg
 ** TODO create mcdt-lib.el as cleaned up replacement for exisiting mailing-lib.el
 ** TODO Package mcdt for elpa
 ** TODO Revisit bueMailingStatic.sh templates -- Headers becomes a single file, no directory of its own
@@ -94,12 +150,13 @@ B|
 ** TODO On entry into "unsent mailing" buffer, update all dblocks
 ** TODO Revisit, to save current all tex buffers then  [[elisp:(lsip-local-run-command-here "lcntProc.sh -v -n showRun -i buildResultsRelease")][lcntProc.sh -v -n showRun -i buildResultsRelease]]
 ** TODO Modernize mailing.ttytex buffer
-** TODO Look into org-mime
+** WAITING Look into org-mime and org-msg
 ** TODO Figure how to deal with mail citations -- htmlized supercite
-** 
-####+BEGIN: blee:bxPanel:foldingSection :outLevel 2 :sep t :title "mcdt.el" :anchor "" :extraInfo "file:/bisos/blee/env/boot/mcdt.el"
-** /[[elisp:(beginning-of-buffer)][|^]]  [[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]] [[elisp:(delete-other-windows)][|1]]/ 
-** [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(org-cycle)][| /mcdt.el:/ |]]  file:/bisos/blee/env/boot/mcdt.el  [[elisp:(org-shifttab)][<)]] E|
+** TODO Adopt and automate LaTeX email quoting ---  https://tex.stackexchange.com/questions/49587/typesetting-email-with-internet-style-quoting-using-latex
+** -
+####+BEGIN: blee:bxPanel:foldingSection :outLevel 2 :sep t :title "mcdt-if.el" :anchor "" :extraInfo "file:/bisos/blee/env2/boot/mcdt-if.el"
+** /[[elisp:(beginning-of-buffer)][|^]]  [[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]] [[elisp:(delete-other-windows)][|1]]/
+** [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(outline-show-subtree+toggle)][| /mcdt-if.el:/ |]]  file:/bisos/blee/env2/boot/mcdt-if.el  [[elisp:(org-shifttab)][<)]] E|
 ####+END
 *** +
 *** Per Mailing commands creation
@@ -113,18 +170,18 @@ B|
 * [[elisp:(show-all)][|n]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_     [[elisp:(org-cycle)][| *Maintenance:* | ]]  [[elisp:(blee:menu-sel:agenda:popupMenu)][||Agenda]]  <<Evolution>>  [[elisp:(org-shifttab)][<)]] E|
 ####+END
 ####+BEGIN: blee:bxPanel:foldingSection :outLevel 2 :title "Notes, Ideas, Tasks, Agenda" :anchor "Tasks"
-** [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(org-cycle)][| /Notes, Ideas, Tasks, Agenda:/ |]] <<Tasks>>   [[elisp:(org-shifttab)][<)]] E|
+** [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(outline-show-subtree+toggle)][| /Notes, Ideas, Tasks, Agenda:/ |]] <<Tasks>>   [[elisp:(org-shifttab)][<)]] E|
 ####+END
 *** TODO Some Idea
 ####+BEGIN: blee:bxPanel:evolutionMaintainers
 ** [[elisp:(show-all)][(>]] [[elisp:(describe-function 'org-dblock-write:blee:bxPanel:evolutionMaintainers)][dbf]]
-** [[elisp:(show-all)][|n]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(org-cycle)][| /Bug Reports, Development Team:/ | ]]  <<Maintainers>>  
+** [[elisp:(show-all)][|n]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(org-cycle)][| /Bug Reports, Development Team:/ | ]]  <<Maintainers>>
 ***  Problem Report                       ::   [[elisp:(find-file "")][Send debbug Email]]
 ***  Maintainers                          ::   [[bbdb:Mohsen.*Banan]]  :: http://mohsen.1.banan.byname.net  E|
 ####+END
 * B|
 ####+BEGIN: blee:bxPanel:footerPanelControls
-* [[elisp:(show-all)][(>]] ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 
+* [[elisp:(show-all)][(>]] ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 * /Footer Controls/ ::  [[elisp:(blee:bnsm:menu-back)][Back]]  [[elisp:(toggle-read-only)][toggle-read-only]]  [[elisp:(show-all)][Show-All]]  [[elisp:(org-shifttab)][Cycle Glob Vis]]  [[elisp:(delete-other-windows)][1 Win]]  [[elisp:(save-buffer)][Save]]   [[elisp:(kill-buffer)][Quit]]  [[elisp:(org-shifttab)][<)]] E|
 ####+END
 ####+BEGIN: blee:bxPanel:footerOrgParams

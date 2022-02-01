@@ -29,11 +29,19 @@
 *   /Ancestors/  :: [[elisp:(blee:bnsm:panel-goto "/bisos/git/auth/bxRepos/blee-binders/blee-core/mail/_nodeBase_")][ =mail= ]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/git/auth/bxRepos/blee-binders/blee-core/_nodeBase_")][ =blee-core= ]] *|*
 *                                   _━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━_                          [[elisp:(org-shifttab)][<)]] E|
 ####+END
+*  (mcdt:setup-and-compose/with-file "/bxo/r3/iso/piu_mbFullUsage/mailings/bystar/bxDE/overviewPointers/bxdeOverview-iranianContext/content.mail")
+*  [[elisp:(mcdt:setup-and-compose/with-file "/bxo/r3/iso/piu_mbFullUsage/mailings/bystar/bxDE/overviewPointers/bxdeOverview-iranianContext/content.mail")][bxdeOverview-iranianContext]]
+*  (mcdt:setup-and-compose/with-file "/bxo/usg/bystar/bxo/usageEnv/selected/mailings/compose/family/roya/basicLaTeX/content.mail")
+* B|
 ####+BEGIN: blee:bxPanel:foldingSection :outLevel 1 :title "Overview" :anchor "Panel"
 * [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(org-cycle)][| *Overview:* |]] <<Panel>>   [[elisp:(org-shifttab)][<)]] E|
 ####+END
-** 
+** +
 ** Main panel for mail origination and mailings and mailingLists.
+** TODO Old and a mess right now.
+** The Panel has the right user extension model. But that too is not clean.
+** TODO With mcdt in place, we have everythin necessary.
+** TODO Should point to ../mailings/mcdt
 ** B|
 ####+BEGIN: blee:bxPanel:foldingSection :outLevel 1 :sep t :title "Start Mail (msdt)" :anchor "" :extraInfo ""
 * /[[elisp:(beginning-of-buffer)][|^]]  [[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]] [[elisp:(delete-other-windows)][|1]]/
@@ -149,8 +157,9 @@ Subscribe to the list you want to post to i.e. that has nothing
 To finally post, visit the group you want to post a message to
 and hit a if you want to write a new posting or use f
 respectively F for followups.
+
 ####+BEGIN: bxPanel:realms:user|extend
-* [[elisp:(show-all)][(>]]                                [[elisp:(org-cycle)][| *━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━* |]]                         
+* [[elisp:(show-all)][(>]]                                [[elisp:(org-cycle)][| *━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━* |]]
 ** Missing realmBaseDir /bxo/usg/bystar/bxo/usageEnv
  [[elisp:(org-shifttab)][<)]] E|
 ####+END
