@@ -25,17 +25,70 @@
 * [[elisp:(show-all)][(>]] [[elisp:(describe-function 'org-dblock-write:blee:bxPanel:terseTreeNavigator)][dbf]]
 * [[elisp:(show-all)][|n]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_   General Panels ::   [[img-link:file:/bisos/blee/env/images/bystarInside.jpg][http://www.by-star.net]] *|*  [[elisp:(find-file "/libre/ByStar/InitialTemplates/activeDocs/listOfDocs/fullUsagePanel-en.org")][BxDE Top Panel]] *|* [[elisp:(blee:bnsm:panel-goto "/libre/ByStar/InitialTemplates/activeDocs/planning/Main")][ByStar Planning]]
 
-*   =Decedents=  :: [[elisp:(blee:bnsm:panel-goto "/bisos/git/auth/bxRepos/blee-binders/blee-core/mail/mailings/emacs-mcdt/_nodeBase_")][ =emacs-mcdt= ]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/git/auth/bxRepos/blee-binders/blee-core/mail/mailings/emacs-msdt/_nodeBase_")][ =emacs-msdt= ]] *|*
+*   =Decedents=  :: [[elisp:(blee:bnsm:panel-goto "/bisos/git/auth/bxRepos/blee-binders/blee-core/mail/mailings/distributions/_nodeBase_")][ =distributions= ]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/git/auth/bxRepos/blee-binders/blee-core/mail/mailings/mtdt-conceptAndDesign/_nodeBase_")][ =mtdt-conceptAndDesign= ]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/git/auth/bxRepos/blee-binders/blee-core/mail/mailings/mtdt-usage/_nodeBase_")][ =mtdt-usage= ]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/git/auth/bxRepos/blee-binders/blee-core/mail/mailings/names/_nodeBase_")][ =names= ]] *|*
 *   *Siblings*   :: [[elisp:(blee:bnsm:panel-goto "/bisos/git/auth/bxRepos/blee-binders/blee-core/mail/mailings/_nodeBase_")][ =mailings= ]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/git/auth/bxRepos/blee-binders/blee-core/mail/mailings-orig/_nodeBase_")][ =mailings-orig= ]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/git/auth/bxRepos/blee-binders/blee-core/mail/reading/_nodeBase_")][ =reading= ]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/git/auth/bxRepos/blee-binders/blee-core/mail/sending/_nodeBase_")][ =sending= ]] *|*
 *   /Ancestors/  :: [[elisp:(blee:bnsm:panel-goto "/bisos/git/auth/bxRepos/blee-binders/blee-core/mail/_nodeBase_")][ =mail= ]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/git/auth/bxRepos/blee-binders/blee-core/_nodeBase_")][ =blee-core= ]] *|*
 *                                   _━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━_                          [[elisp:(org-shifttab)][<)]] E|
 ####+END
 ####+BEGIN: blee:bxPanel:foldingSection :outLevel 1 :title "Overview + Ideas and TODOs" :anchor "Panel"
-* [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(org-cycle)][| *Overview + Ideas and TODOs:* |]] <<Panel>>   [[elisp:(org-shifttab)][<)]] E|
+* [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(outline-show-subtree+toggle)][| *Overview + Ideas and TODOs:* |]] <<Panel>>   [[elisp:(org-shifttab)][<)]] E|
 ####+END
 ** +
 ** TODO Move mailings-orig to under emacs-mcdt
 ** B|
+####+BEGIN: blee:bxPanel:foldingSection :outLevel 1 :sep t :title "Overview: Names-Mailings-Distributions Model" :anchor "" :extraInfo "Description and Usage"
+* /[[elisp:(beginning-of-buffer)][|^]]  [[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]] [[elisp:(delete-other-windows)][|1]]/
+* [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(outline-show-subtree+toggle)][| *Overview: Names-Mailings-Distributions Model:* |]]  Description and Usage  [[elisp:(org-shifttab)][<)]] E|
+####+END
+**  [[elisp:(org-cycle)][| ]]  /Overview/   ::    [[elisp:(org-cycle)][| ]]
+***    ========  /Key Pure Mailing Objects/
+       Names are independent of Mailings -- Distributions, combine Mailings and Names
+****   ==== /Names/         --  nameProc.sh    -- seedNameDistProc.sh  -- ~/BUE/names
+****   ==== /Mailings/      --  mailingProc.sh -- seedMailingProc.sh   -- ~/BUE/mailings
+****   ==== /Distributions/ --  distProc.sh    -- seedNameDistProc.sh  -- ~/BUE/mailings/some/dist
+       Names are independent of Mailings -- Distributions, combine Mailings and Names
+****   ==== /Names/         --  nameProc.sh    -- seedNameDistProc.sh  -- ~/BUE/names
+****   ==== /Mailings/      --  mailingProc.sh -- seedMailingProc.sh   -- ~/BUE/mailings
+****   ==== /Distributions/ --  distProc.sh    -- seedNameDistProc.sh  -- ~/BUE/mailings/some/dist
+***    ========  /Key Lcnt M
+ailing Objects/
+****   ==== /Publishable Lcnt/      --  lcnLcntGens.sh -p form=mailLcnt             -- lcntProc.sh  -- /lcnt/../docName
+****   ==== /Private Lcnt/          --  lcnLcntGens.sh -p form=mailLcnt -p nu=000   -- lcntProc.sh  -- /lcnt/../docName
+****   ==== /Mailings + Pub Lcnt/   --  bxtStartMailing.sh  -i startObjectGen htmlPubLcnt path -- /lcnt/../docName/mailing
+****   ==== /Mailings + Priv Lcnt/  --  bxtStartMailing.sh  -i startObjectGen lcntHtml path -- /lcnt/../docName/mailing
+****   ==============
+****   ==== /DistBases/  --         mkdir -p .../dist --  /lcnt/../docName/mailing/dist
+****   ==== /DistBase/  --          bxtStartDistMail.sh -v -n showRun -i startObjectGen nativeNode .
+****   ==== /DistBase + Names/  --  mkdir -p .../names --  /lcnt/../docName/mailing/dist/names
+****   ==== /DistBase + Names/  --  bxtStartDistMail.sh -v -n showRun -i startObjectGen namesList .
+****   ==== /DistBase + DIST/  --   mkdir -p .../distName --  /lcnt/../docName/mailing/dist/distName
+****   ==== /DistBase + DIST/  --   bxtStartDistMail.sh -v -n showRun -i startObjectGen distribution .
+***    ========  /Key ~/BUE Mailing Objects/
+****   ==== /Names/         --  nameProc.sh    -- seedNameDistProc.sh  -- ~/BUE/names
+****   ==== /Distributions/ --  distProc.sh    -- seedNameDistProc.sh  -- ~/BUE/mailings/some/dist
+***    ========  /Names/
+**** ~basa/names   --- Will Have names Hierarchy with  "nameProc.sh" Based on seedNameDistProc.sh
+**** ~basa/names/central  central/templates/nameProc.sh
+****  /hss/vc/bbdbNames/central  /hss/vc/bbdbMailings/central
+
+***    ========  /Mailings/
+****   ~basa/mailings
+****   ~basa/mailings/part/chapter/section
+****    bystarMailingStart.sh  -- Pattern after seedPlone3NewProc.sh -- bystarPlone3Start.sh
+****    objectType=text - html - lcntHtml
+****    Each Mailing is named in mailingName -- Typically part-chapter-section
+****    mailing.el  is generated with part-chapter-section
+****    mailing.el  is optionally loaded
+****    msend-part-chapter-section is entry point
+****    ~basa/mailings/bystar/announce/digitalEcosystem/dists/tag1 -- Each Dist Will have "distProc.sh" Based on seedNameDistProc.sh
+****    A distProc.sh is associated with a mailing through hierarch or otherwise and
+****    ~basa/mailings/bystar/announce/digitalEcosystem/curDist  -- Current Distribution
+****    ~basa/mailings/logs
+***    ========  /Mailings - Transition/
+****    Take /usr/devenv/bbdbNames/bin/bbdbMailings.sh -- Absorb It into seedMailingProc.sh
+****    Current Transitional Example: /usr/devenv/bbdbNames/MailingsKeep/iran/bystar/audienceRequestIran/dists/2012-1/bbdbNamesProc.sh
+***    ======== /Distributions/
+****    Distributions are based in mailing/dist eg: ~basa/mailings/part/chapter/section/dist
 ####+BEGIN: blee:bxPanel:separator :outLevel 1
 * /[[elisp:(beginning-of-buffer)][|^]] [[elisp:(blee:menu-sel:navigation:popupMenu)][==]] [[elisp:(delete-other-windows)][|1]]/
 ####+END
@@ -45,7 +98,7 @@
 * [[elisp:(show-all)][|n]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_     [[elisp:(org-cycle)][| *Maintenance:* | ]]  [[elisp:(blee:menu-sel:agenda:popupMenu)][||Agenda]]  <<Evolution>>  [[elisp:(org-shifttab)][<)]] E|
 ####+END
 ####+BEGIN: blee:bxPanel:foldingSection :outLevel 2 :title "Notes, Ideas, Tasks, Agenda" :anchor "Tasks"
-** [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(org-cycle)][| /Notes, Ideas, Tasks, Agenda:/ |]] <<Tasks>>   [[elisp:(org-shifttab)][<)]] E|
+** [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(outline-show-subtree+toggle)][| /Notes, Ideas, Tasks, Agenda:/ |]] <<Tasks>>   [[elisp:(org-shifttab)][<)]] E|
 ####+END
 *** TODO Some Idea
 ####+BEGIN: blee:bxPanel:evolutionMaintainers

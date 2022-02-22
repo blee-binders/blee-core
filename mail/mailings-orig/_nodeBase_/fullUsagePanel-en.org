@@ -41,7 +41,7 @@
 ####+END:
 *      ================ (dblock ends)
 *      ================
-*          /ByStar:/   _Actions_         *Mailings Delivery Care/Hints/Policy/Procedure*
+*  ABSORBED        /ByStar:/   _Actions_         *Mailings Delivery Care/Hints/Policy/Procedure*
 **     ============  Increasing Inbox Delivery Rate
 **             https://support.google.com/mail/answer/81126?hl=en
 *      ================

@@ -37,7 +37,7 @@
 * [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(org-cycle)][| *Overview:* |]] <<Panel>>   [[elisp:(org-shifttab)][<)]] E|
 ####+END
 ** 
-** Overview Comes Here.
+** The Blee ByStar Usage Envivonment
 ** B|
 * 
 ####+BEGIN: blee:bxPanel:linkWithTreeElem :model "auto" :sep t :outLevel 2 :agenda nil :foldDesc "Mail Sending, Receiving, Reading" :destDesc "Mail" :dest "/bisos/panels/blee-core/mail/_nodeBase_"

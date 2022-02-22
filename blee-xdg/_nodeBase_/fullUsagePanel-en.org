@@ -39,8 +39,12 @@
 ####+BEGIN: blee:bxPanel:foldingSection :outLevel 1 :sep t :title "About XDG" :anchor "" :extraInfo "X Desktop Group"
 * /[[elisp:(beginning-of-buffer)][|^]]  [[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]] [[elisp:(delete-other-windows)][|1]]/ 
 * [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(org-cycle)][| *About XDG:* |]]  X Desktop Group  [[elisp:(org-shifttab)][<)]] E|
-####+END Xdg itself was an acronym of the X Desktop Group, which is now known as freedesktop.org , which developed
-a set of standards that are common across different desktop environments such as GNOME, KDE, LXDE and others.
+####+END
+** +
+** Xdg itself was an acronym of the X Desktop Group, which is now known as freedesktop.org,
+which developed a set of standards that are common across different desktop environments
+such as GNOME, KDE, LXDE and others.
+** B|
 ####+BEGIN: blee:panel:icm:bash:intro :outLevel 2 :sep nil :folding? nil :label "shIcm" :icmName "blee-xdg.sh" :comment "Install and activate XDG Handlers" :afterComment ""
 ** [[elisp:(show-all)][(>]] [[elisp:(blee:menu-sel:outline:popupMenu)][+-]] [[elisp:(blee:menu-sel:navigation:popupMenu)][==]]  /shIcm/ :: [[elisp:(lsip-local-run-command "blee-xdg.sh -i examples")][blee-xdg.sh]]  [[elisp:(lsip-local-run-command "blee-xdg.sh -i visit")][visit]]  [[elisp:(lsip-local-run-command "blee-xdg.sh -i describe")][describe]] *|*  =Install and activate XDG Handlers= *|*   [[elisp:(org-shifttab)][<)]] E|
 ####+END:

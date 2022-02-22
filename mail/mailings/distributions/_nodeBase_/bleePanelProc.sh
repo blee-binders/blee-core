@@ -13,13 +13,13 @@ __copying__="
 
 ####+BEGIN: bx:bsip:bash:seed-spec :types "seedBleePanelProc.sh"
 SEED="
-*  /[dblock]/ /Seed/ :: [[file:/bisos/core/bsip/bin/seedBleePanelProc.sh]] | 
+*  /[dblock]/ /Seed/ :: [[file:/bisos/core/bsip/bin/seedBleePanelProc.sh]] |
 "
 FILE="
-*  /This File/ :: /bisos/panels/blee-core/mail/mailings/emacs-mcdt/bleePanelProc.sh 
+*  /This File/ :: /bisos/git/auth/bxRepos/blee-binders/blee-core/mail/mailings/distributions/_nodeBase_/bleePanelProc.sh
 "
 if [ "${loadFiles}" == "" ] ; then
-    /bisos/core/bsip/bin/seedBleePanelProc.sh -l $0 "$@" 
+    /bisos/core/bsip/bin/seedBleePanelProc.sh -l $0 "$@"
     exit $?
 fi
 ####+END:
@@ -45,13 +45,13 @@ _EOF_
 function templatesEvolution {
     cat  << _EOF_
 $( examplesSeperatorSection "ftoProc.sh -- Templates Evolution" )
-diff ./ftoProc.sh  /libre/ByStar/InitialTemplates/update/fto/start/commonProc/anyFtoItem/ftoProcNode.sh
-cp ./ftoProc.sh  /libre/ByStar/InitialTemplates/update/fto/start/commonProc/anyFtoItem/ftoProcNode.sh
-cp /libre/ByStar/InitialTemplates/update/fto/start/commonProc/anyFtoItem/ftoProcNode.sh ./ftoProc.sh  
+diff ./ftoProc.sh  /bisos/apps/defaults/update/fto/start/commonProc/anyFtoItem/ftoProcNode.sh
+cp ./ftoProc.sh  /bisos/apps/defaults/update/fto/start/commonProc/anyFtoItem/ftoProcNode.sh
+cp /bisos/apps/defaults/update/fto/start/commonProc/anyFtoItem/ftoProcNode.sh ./ftoProc.sh  
 $( examplesSeperatorSection "commonPanel.org -- Templates Evolution" )
-diff ./Panel.org  /libre/ByStar/InitialTemplates/start/fto/commonProc/anyFtoItem/mainPanel.org
-cp ./Panel.org /libre/ByStar/InitialTemplates/start/fto/commonProc/anyFtoItem/mainPanel.org
-cp /libre/ByStar/InitialTemplates/start/fto/commonProc/anyFtoItem/mainPanel.org ./Panel.org
+diff ./Panel.org  /bisos/apps/defaults/start/fto/commonProc/anyFtoItem/mainPanel.org
+cp ./Panel.org /bisos/apps/defaults/start/fto/commonProc/anyFtoItem/mainPanel.org
+cp /bisos/apps/defaults/start/fto/commonProc/anyFtoItem/mainPanel.org ./Panel.org
 _EOF_
  return
 }
