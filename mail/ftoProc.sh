@@ -57,11 +57,14 @@ _CommentEnd_
 ####+BEGIN: bx:dblock:ploneProc:bash:nodesList :types ""
 # {{{ DBLOCK-nodesList
 nodesList="
+message-mode
 _nodeBase_
+mailings-orig
+reading
+model
 sending
 mailings
-reading
-mailings-orig
+Gnus
 "
 # }}} DBLOCK-nodesList
 ####+END:
