@@ -1,0 +1,11 @@
+startOrgPanel.sh -h -v -n showRun -i bleePanelBase node ./blee-libs
+startOrgPanel.sh -h -v -n showRun -i bleePanelBase node ./blee-name-spaces
+startOrgPanel.sh -h -v -n showRun -i bleePanelBase node ./blee-naming-conventions
+startOrgPanel.sh -h -v -n showRun -i bleePanelBase node ./blee-packaging
+startOrgPanel.sh -h -v -n showRun -i bleePanelBase node ./comment-block
+startOrgPanel.sh -h -v -n showRun -i bleePanelBase node ./mcdt
+startOrgPanel.sh -h -v -n showRun -i bleePanelBase node ./mua-abstract
+startOrgPanel.sh -h -v -n showRun -i bleePanelBase node ./persian-input-method
+startOrgPanel.sh -h -v -n showRun -i bleePanelBase node ./poly-comeega
+startOrgPanel.sh -h -v -n showRun -i bleePanelBase node ./poly-dblock
+startOrgPanel.sh -h -v -n showRun -i bleePanelBase node ./tutorials

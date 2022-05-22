@@ -25,6 +25,7 @@
 * [[elisp:(show-all)][(>]] [[elisp:(describe-function 'org-dblock-write:blee:bxPanel:terseTreeNavigator)][dbf]]
 * [[elisp:(show-all)][|n]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_   General Panels ::   [[img-link:file:/bisos/blee/env/images/bystarInside.jpg][http://www.by-star.net]] *|*  [[elisp:(find-file "/libre/ByStar/InitialTemplates/activeDocs/listOfDocs/fullUsagePanel-en.org")][BxDE Top Panel]] *|* [[elisp:(blee:bnsm:panel-goto "/libre/ByStar/InitialTemplates/activeDocs/planning/Main")][ByStar Planning]]
 
+*   =Decedents=  :: [[elisp:(blee:bnsm:panel-goto "/bisos/git/auth/bxRepos/blee-binders/blee-core/snippets/emacs-lisp-mode/_nodeBase_")][ =emacs-lisp-mode= ]] *|*
 *   *Siblings*   :: [[elisp:(blee:bnsm:panel-goto "/bisos/git/auth/bxRepos/blee-binders/blee-core/blee-xdg/_nodeBase_")][ =blee-xdg= ]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/git/auth/bxRepos/blee-binders/blee-core/contacts/_nodeBase_")][ =contacts= ]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/git/auth/bxRepos/blee-binders/blee-core/mail/_nodeBase_")][ =mail= ]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/git/auth/bxRepos/blee-binders/blee-core/org-mode/_nodeBase_")][ =org-mode= ]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/git/auth/bxRepos/blee-binders/blee-core/snippets/_nodeBase_")][ =snippets= ]] *|*
 *   *Siblings*   :: [[elisp:(blee:bnsm:panel-goto "/bisos/git/auth/bxRepos/blee-binders/blee-core/web-browse/_nodeBase_")][ =web-browse= ]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/git/auth/bxRepos/blee-binders/blee-core/web-search")][web-search]] *|*
 *   /Ancestors/  :: [[elisp:(blee:bnsm:panel-goto "/bisos/git/auth/bxRepos/blee-binders/blee-core/_nodeBase_")][ =blee-core= ]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/git/auth/bxRepos/blee-binders/_nodeBase_")][ =blee-binders= ]] *|*
@@ -36,11 +37,12 @@
 ** +
 ** Scope of this panel is snippets, inserts, begin and start
 ** B|
-####+BEGIN: blee:bxPanel:foldingSection :sep t :outLevel 1 :title "Snippets --- Labeling" :anchor ""
+####+BEGIN: blee:bxPanel:foldingSection :sep t :outLevel 1 :title "Snippets Labeling" :anchor "" :extraInfo "text, dblock, elisp, inserts"
 * /[[elisp:(beginning-of-buffer)][|^]]  [[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]] [[elisp:(delete-other-windows)][|1]]/
-* [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(outline-show-subtree+toggle)][| *Snippets --- Labeling:* |]]    [[elisp:(org-shifttab)][<)]] E|
+* [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(outline-show-subtree+toggle)][| *Snippets Labeling:* |]]  text, dblock, elisp, inserts  [[elisp:(org-shifttab)][<)]] E|
 ####+END
 ** +
+** Each snippet file is labeled by one of the following.
 ** Snippets are of 4 kinds:
 ** B|
 ####+BEGIN: blee:bxPanel:foldingSection :sep t :outLevel 2 :title "text" :anchor ""
@@ -69,7 +71,8 @@
 ** [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(outline-show-subtree+toggle)][| /inserts:/ |]]    [[elisp:(org-shifttab)][<)]] E|
 ####+END
 ** +
-** The files in the .inserts --- hidden file works. .yas-skip does not work
+** The files in the .inserts --- hidden file works. .yas-skip does not work.
+** To unhide .inserts directoies, there usually is a _inserts file as symlink to panel.yas
 ** B|
 ####+BEGIN: blee:bxPanel:foldingSection :sep t :outLevel 1 :title "Inserts" :anchor ""
 * /[[elisp:(beginning-of-buffer)][|^]]  [[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]] [[elisp:(delete-other-windows)][|1]]/
@@ -92,6 +95,34 @@
 ** +
 ** Start produces the equivalent of begin at command-line.
 ** B|
+####+BEGIN: blee:bxPanel:foldingSection :outLevel 1 :sep t :title "Snippets realms" :anchor "" :extraInfo "Emacs, Blee/By*, Usg"
+* /[[elisp:(beginning-of-buffer)][|^]]  [[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]] [[elisp:(delete-other-windows)][|1]]/
+* [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(outline-show-subtree+toggle)][| *Snippets realms:* |]]  Emacs, Blee/By*, Usg  [[elisp:(org-shifttab)][<)]] E|
+####+END
+** +
+** Start produces the equivalent of begin at command-line.
+** B|
+####+BEGIN: blee:bxPanel:foldingSection :outLevel 2 :sep t :title "Emacs Realm" :anchor "" :extraInfo "Mention Sources (doom)"
+** /[[elisp:(beginning-of-buffer)][|^]]  [[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]] [[elisp:(delete-other-windows)][|1]]/
+** [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(outline-show-subtree+toggle)][| /Emacs Realm:/ |]]  Mention Sources (doom)  [[elisp:(org-shifttab)][<)]] E|
+####+END
+*** +
+*** Upstream adopted.
+*** B|
+####+BEGIN: blee:bxPanel:foldingSection :outLevel 2 :sep t :title "Blee (bx) Realm" :anchor "" :extraInfo "Incomplete"
+** /[[elisp:(beginning-of-buffer)][|^]]  [[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]] [[elisp:(delete-other-windows)][|1]]/
+** [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(outline-show-subtree+toggle)][| /Blee (bx) Realm:/ |]]  Incomplete  [[elisp:(org-shifttab)][<)]] E|
+####+END
+*** +
+*** TODO Overview of implementation
+*** B|
+####+BEGIN: blee:bxPanel:foldingSection :outLevel 2 :sep t :title "Usage Realm" :anchor "" :extraInfo "Incomplete"
+** /[[elisp:(beginning-of-buffer)][|^]]  [[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]] [[elisp:(delete-other-windows)][|1]]/
+** [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(outline-show-subtree+toggle)][| /Blee (bx) Realm:/ |]]  Incomplete  [[elisp:(org-shifttab)][<)]] E|
+####+END
+*** +
+*** TODO Overview of Usage Realm implementation
+*** B|
 ####+BEGIN: blee:bxPanel:separator :outLevel 1
 * /[[elisp:(beginning-of-buffer)][|^]] [[elisp:(blee:menu-sel:navigation:popupMenu)][==]] [[elisp:(delete-other-windows)][|1]]/
 ####+END
