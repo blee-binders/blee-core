@@ -38,7 +38,7 @@
 * [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(outline-show-subtree+toggle)][| *Overview And Scope:* |]] <<Panel>>   [[elisp:(org-shifttab)][<)]] E|
 ####+END
 ** +
-Scope of this panel is enumeration of blee packages.
+Scope of this panel is enumeration of blee packages -- Packages Made For Blee.
 Blee Packages fall into 3 categories:
  1) Traditional Emacs Packages
  2) Blee COMEEGA Emacs Packages

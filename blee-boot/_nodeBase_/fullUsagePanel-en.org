@@ -30,87 +30,108 @@
 *   /Ancestors/  :: [[elisp:(blee:bnsm:panel-goto "/bisos/git/auth/bxRepos/blee-binders/blee-core/_nodeBase_")][ =blee-core= ]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/git/auth/bxRepos/blee-binders/_nodeBase_")][ =blee-binders= ]] *|*
 *                                   _━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━_                          [[elisp:(org-shifttab)][<)]] E|
 ####+END
-####+BEGIN: blee:bxPanel:foldingSection :outLevel 1 :title "Overview And Scope" :anchor "Panel"
-* [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(outline-show-subtree+toggle)][| *Overview And Scope:* |]] <<Panel>>   [[elisp:(org-shifttab)][<)]] E|
+####+BEGIN: blee:bxPanel:foldingSection :outLevel 1 :title "Overview And Scope" :anchor "Panel" :extraInfo "Booting Order"
+* [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(outline-show-subtree+toggle)][| *Overview And Scope:* |]] <<Panel>> Booting Order  [[elisp:(org-shifttab)][<)]] E|
 ####+END
 ** +
-** Scope of this panel is snippets, inserts, begin and start
-** B|
-####+BEGIN: blee:bxPanel:foldingSection :sep t :outLevel 1 :title "Snippets Labeling" :anchor "" :extraInfo "text, dblock, elisp, inserts"
-* /[[elisp:(beginning-of-buffer)][|^]]  [[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]] [[elisp:(delete-other-windows)][|1]]/
-* [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(outline-show-subtree+toggle)][| *Snippets Labeling:* |]]  text, dblock, elisp, inserts  [[elisp:(org-shifttab)][<)]] E|
-####+END
-** +
-** Each snippet file is labeled by one of the following.
-** Snippets are of 4 kinds:
-** B|
-####+BEGIN: blee:bxPanel:foldingSection :sep t :outLevel 2 :title "text" :anchor ""
-** /[[elisp:(beginning-of-buffer)][|^]]  [[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]] [[elisp:(delete-other-windows)][|1]]/
-** [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(outline-show-subtree+toggle)][| /text:/ |]]    [[elisp:(org-shifttab)][<)]] E|
-####+END
-** +
-** yasnippet usual syntax
-** B|
-####+BEGIN: blee:bxPanel:foldingSection :sep t :outLevel 2 :title "dblock" :anchor ""
-** /[[elisp:(beginning-of-buffer)][|^]]  [[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]] [[elisp:(delete-other-windows)][|1]]/
-** [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(outline-show-subtree+toggle)][| /dblock:/ |]]    [[elisp:(org-shifttab)][<)]] E|
-####+END
-** +
-** Creates dblock text
-** B|
-####+BEGIN: blee:bxPanel:foldingSection :sep t :outLevel 2 :title "elisp" :anchor ""
-** /[[elisp:(beginning-of-buffer)][|^]]  [[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]] [[elisp:(delete-other-windows)][|1]]/
-** [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(outline-show-subtree+toggle)][| /elisp:/ |]]    [[elisp:(org-shifttab)][<)]] E|
-####+END
-** +
-** Yasnippet implemented in elisp
-** B|
-####+BEGIN: blee:bxPanel:foldingSection :sep t :outLevel 2 :title "inserts" :anchor ""
-** /[[elisp:(beginning-of-buffer)][|^]]  [[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]] [[elisp:(delete-other-windows)][|1]]/
-** [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(outline-show-subtree+toggle)][| /inserts:/ |]]    [[elisp:(org-shifttab)][<)]] E|
-####+END
-** +
-** The files in the .inserts --- hidden file works. .yas-skip does not work.
-** To unhide .inserts directoies, there usually is a _inserts file as symlink to panel.yas
-** B|
-####+BEGIN: blee:bxPanel:foldingSection :sep t :outLevel 1 :title "Inserts" :anchor ""
-* /[[elisp:(beginning-of-buffer)][|^]]  [[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]] [[elisp:(delete-other-windows)][|1]]/
-* [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(outline-show-subtree+toggle)][| *Inserts:* |]]    [[elisp:(org-shifttab)][<)]] E|
-####+END
-** +
-** Applications and tools that need to insert templates take them from snippets/.inserts
-** B|
-####+BEGIN: blee:bxPanel:foldingSection :sep t :outLevel 1 :title "Begin" :anchor ""
-* /[[elisp:(beginning-of-buffer)][|^]]  [[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]] [[elisp:(delete-other-windows)][|1]]/
-* [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(outline-show-subtree+toggle)][| *Begin:* |]]    [[elisp:(org-shifttab)][<)]] E|
-####+END
-** +
-** Begin snippets typically aggregate other snippets to provide a begining file.
-** B|
-####+BEGIN: blee:bxPanel:foldingSection :sep t :outLevel 1 :title "Start --- Command Lines" :anchor ""
-* /[[elisp:(beginning-of-buffer)][|^]]  [[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]] [[elisp:(delete-other-windows)][|1]]/
-* [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(outline-show-subtree+toggle)][| *Start --- Command Lines:* |]]    [[elisp:(org-shifttab)][<)]] E|
-####+END
-** +
-** Start produces the equivalent of begin at command-line.
-** B|
-####+BEGIN: blee:bxPanel:foldingSection :outLevel 1 :sep t :title "Snippets realms" :anchor "" :extraInfo "Emacs, Blee/By*, Usg"
-* /[[elisp:(beginning-of-buffer)][|^]]  [[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]] [[elisp:(delete-other-windows)][|1]]/
-* [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(outline-show-subtree+toggle)][| *Snippets realms:* |]]  Emacs, Blee/By*, Usg  [[elisp:(org-shifttab)][<)]] E|
-####+END
-** +
-** Start produces the equivalent of begin at command-line.
-** B|
-####+BEGIN: blee:bxPanel:foldingSection :outLevel 2 :sep t :title "Emacs Realm" :anchor "" :extraInfo "Mention Sources (doom)"
-** /[[elisp:(beginning-of-buffer)][|^]]  [[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]] [[elisp:(delete-other-windows)][|1]]/
-** [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(outline-show-subtree+toggle)][| /Emacs Realm:/ |]]  Mention Sources (doom)  [[elisp:(org-shifttab)][<)]] E|
+** Scope of this panel is all that involves booting into blee.
+** Blee is the emacs env plus select other GUI apps. That totality is called Gnome-Blee.
+####+BEGIN: blee:bxPanel:foldingSection :outLevel 2 :title "Booting order" :anchor "" :extraInfo "Enumerations"
+** [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(outline-show-subtree+toggle)][| /Booting order:/ |]]  Enumerations  [[elisp:(org-shifttab)][<)]] E|
 ####+END
 *** +
-*** Upstream adopted.
+*** 1) bin/blee  --- Start specified emacs with specified profile of chemacs
+*** 2) Chemacs   --- Based on specified profile, run the selected init file
+*** 3.1) blee+doom --- See [[doom+blee]]
+**** 3.1.1 dooms/doom-base-bleeVer --- init and config files files --- packages
+**** 3.1.2 29f/doom-main-bleeVer --- Re-creatable with emacsDoomManage.sh
+**** 3.1.3 With b:doom:verNu set, same as blee (pure) -- blee-boot-load.el
+*** 3.2) blee (pure) --- init-file
+*** 3.3) envVer/boot/boot-blee.el ::: sets version, sets bases, loads essential COMEEGA libs, 3.4, 3.5, 3.6
+*** 3.4) envVer/realmPre/boot.el  ::: set devMode, disable unwanted packages for site or user
+*** 3.5) envVer/main/boot.el
+**** 3.5.1) envVer/bPkgs/boot.el
+**** 3.5.2) envVer/bCaps/boot.el
+**** 3.5.3) splash screen
+*** 3.6) envVer/realmPost/boot.el  ::: Anything Extra site or user wants to do
+*** -
+** B|
+####+BEGIN: blee:bxPanel:foldingSection :sep t :outLevel 1 :title "Policies And Key Choices" :anchor "" :extraInfo "text, dblock, elisp, inserts"
+* /[[elisp:(beginning-of-buffer)][|^]]  [[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]] [[elisp:(delete-other-windows)][|1]]/
+* [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(outline-show-subtree+toggle)][| *Policies And Key Choices:* |]]  text, dblock, elisp, inserts  [[elisp:(org-shifttab)][<)]] E|
+####+END
+** +
+** .emacs.el is not used at all. It is removed. ./emacs.d is used instead.
+** Emacs package.el is not used. It is disabled. straight is used instead.
+** In Blee, use-package is not used.
+** Doom Blee is used for harvesting purposes. dblee is tactical not strategic.
+** B|
+####+BEGIN: blee:bxPanel:foldingSection :sep t :outLevel 0 :title "Emacs Substrate And Emacs Eocsystem" :anchor "" :extraInfo "Should Become A Link"
+* /[[elisp:(beginning-of-buffer)][|^]]  [[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]] [[elisp:(delete-other-windows)][|1]]/
+* [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_     [[elisp:(outline-show-subtree+toggle)][| _Emacs Substrate And Emacs Eocsystem_: |]]  Should Become A Link  [[elisp:(org-shifttab)][<)]] E|
+####+END
+** +
+** TODO Setup /bisos/blee/bin
+** B|
+####+BEGIN: blee:bxPanel:foldingSection :sep t :outLevel 1 :title "lcaEmacsSrcBinsPrep.sh" :anchor ""
+* /[[elisp:(beginning-of-buffer)][|^]]  [[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]] [[elisp:(delete-other-windows)][|1]]/
+* [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(outline-show-subtree+toggle)][| *lcaEmacsSrcBinsPrep.sh:* |]]    [[elisp:(org-shifttab)][<)]] E|
+####+END
+** +
+** run the script
+** B|
+####+BEGIN: blee:bxPanel:foldingSection :sep t :outLevel 0 :title "Blee Bases" :anchor ""
+* /[[elisp:(beginning-of-buffer)][|^]]  [[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]] [[elisp:(delete-other-windows)][|1]]/
+* [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_     [[elisp:(outline-show-subtree+toggle)][| _Blee Bases_: |]]    [[elisp:(org-shifttab)][<)]] E|
+####+END
+** +
+** TODO Setup /bisos/blee/bin
+** B|
+####+BEGIN: blee:bxPanel:foldingSection :sep t :outLevel 0 :title "Blee Scripts" :anchor ""
+* /[[elisp:(beginning-of-buffer)][|^]]  [[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]] [[elisp:(delete-other-windows)][|1]]/
+* [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_     [[elisp:(outline-show-subtree+toggle)][| _Blee Scripts_: |]]    [[elisp:(org-shifttab)][<)]] E|
+####+END
+** +
+** TODO Setup /bisos/core/blee or
+** B|
+####+BEGIN: blee:bxPanel:foldingSection :sep t :outLevel 1 :title "Main Blee Script" :anchor ""
+* /[[elisp:(beginning-of-buffer)][|^]]  [[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]] [[elisp:(delete-other-windows)][|1]]/
+* [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(outline-show-subtree+toggle)][| *Main Blee Script:* |]]    [[elisp:(org-shifttab)][<)]] E|
+####+END
+** +
+**
+** B|
+####+BEGIN: blee:bxPanel:foldingSection :sep t :outLevel 1 :title "BleeBinsPrep" :anchor ""
+* /[[elisp:(beginning-of-buffer)][|^]]  [[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]] [[elisp:(delete-other-windows)][|1]]/
+* [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(outline-show-subtree+toggle)][| *BleeBinsPrep:* |]]    [[elisp:(org-shifttab)][<)]] E|
+####+END
+** +
+** Start produces the equivalent of begin at command-line.
+** B|
+####+BEGIN: blee:bxPanel:foldingSection :outLevel 0 :sep t :title "Chemacs" :anchor "" :extraInfo ""
+* /[[elisp:(beginning-of-buffer)][|^]]  [[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]] [[elisp:(delete-other-windows)][|1]]/
+* [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_     [[elisp:(outline-show-subtree+toggle)][| _Chemacs_: |]]  Emacs, Blee/By*, Usg  [[elisp:(org-shifttab)][<)]] E|
+####+END
+** +
+** Start produces the equivalent of begin at command-line.
+** B|
+####+BEGIN: blee:bxPanel:foldingSection :outLevel 0 :sep t :title "Doom+Blee" :anchor "Doom+Blee" :extraInfo "Doom WithBlee And SansBlee"
+* /[[elisp:(beginning-of-buffer)][|^]]  [[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]] [[elisp:(delete-other-windows)][|1]]/
+* [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_     [[elisp:(outline-show-subtree+toggle)][| _Doom+Blee_: |]] <<Doom+Blee>> Doom WithBlee And SansBlee  [[elisp:(org-shifttab)][<)]] E|
+####+END
+*** +
+*** TODO Verify all paths are accurate
+*** In parallel with blee/chemacs2 profiles, emacsDoomManage.sh is used.
+*** blee.sh uses the doom environments that emacsDoomManage.sh creates.
+*** TODO make this be a section heading --- File hierarchies are:
+**** /bisos/blee/${ver}f/doom-main-bleeVer  == Re-creatable by emacsDoomManage.sh
+**** /bisos/blee/dooms/doom-base-bleeVer  == Equivalent of .doom.d dir for packages and config.
+**** /bisos/blee/dooms/doom-base-bleeVer/init.el  --- sansBlee
+**** /bisos/blee/dooms/doom-base-bleeVer/blee-boot-load.el
 *** B|
-####+BEGIN: blee:bxPanel:foldingSection :outLevel 2 :sep t :title "Blee (bx) Realm" :anchor "" :extraInfo "Incomplete"
-** /[[elisp:(beginning-of-buffer)][|^]]  [[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]] [[elisp:(delete-other-windows)][|1]]/
-** [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(outline-show-subtree+toggle)][| /Blee (bx) Realm:/ |]]  Incomplete  [[elisp:(org-shifttab)][<)]] E|
+####+BEGIN: blee:bxPanel:foldingSection :outLevel 0 :sep t :title "Blee Boot" :anchor "" :extraInfo "Incomplete"
+* /[[elisp:(beginning-of-buffer)][|^]]  [[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]] [[elisp:(delete-other-windows)][|1]]/
+* [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_     [[elisp:(outline-show-subtree+toggle)][| _Blee Boot_: |]]  Incomplete  [[elisp:(org-shifttab)][<)]] E|
 ####+END
 *** +
 *** TODO Overview of implementation
