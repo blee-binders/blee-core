@@ -38,25 +38,25 @@
 ** Based on Gnus and message-mode are linked to BPO profiles.
 ** B|
 ####+BEGIN: b:elisp:describe/variable :outLevel 1 :sep t :foldDesc "Blee Context" :varName "emacs-version"
-* [[elisp:(show-all)][(>]]  [[elisp:(org-cycle)][| /Blee Context/ |]]   [[elisp:(describe-variable 'emacs-version)][Describe Var: emacs-version]] [[elisp:(org-shifttab)][<)]] E|
+
 ####+END
 ** +
 ** How this is used on blee.
 ** B|
 ####+BEGIN: b:elisp:describe/function :outLevel 1 :sep t :foldDesc "Blee Context" :funcName "customize"
-* [[elisp:(show-all)][(>]]  [[elisp:(org-cycle)][| /Blee Context/ |]]   [[elisp:(describe-function 'customize)][Describe Func: customize]] [[elisp:(org-shifttab)][<)]] E|
+
 ####+END
 ** +
 ** How this is used on blee.
 ** B|
 ####+BEGIN: b:elisp:variable/customize :outLevel 1 :sep t :foldDesc "Blee Context" :varName "emacs-version"
-* [[elisp:(show-all)][(>]]  [[elisp:(org-cycle)][| /Blee Context/ |]]   [[elisp:(customize-variable'emacs-version)][Customize Var: emacs-version]] [[elisp:(org-shifttab)][<)]] E|
+
 ####+END
 ** +
 ** How this is used on blee.
 ** B|
 ####+BEGIN: b:elisp:option/customize :outLevel 1 :sep t :foldDesc "Blee Context" :optionName "emacs-version"
-* [[elisp:(show-all)][(>]]  [[elisp:(org-cycle)][| /Blee Context/ |]]   [[elisp:(customize-option'emacs-version)][Customize Option: emacs-version]] [[elisp:(org-shifttab)][<)]] E|
+
 ####+END
 ** +
 ** How this is used on blee.

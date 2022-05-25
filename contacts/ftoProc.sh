@@ -57,8 +57,9 @@ _CommentEnd_
 ####+BEGIN: bx:dblock:ploneProc:bash:nodesList :types ""
 # {{{ DBLOCK-nodesList
 nodesList="
-vcard
 _nodeBase_
+vcard
+bbdb
 "
 # }}} DBLOCK-nodesList
 ####+END:

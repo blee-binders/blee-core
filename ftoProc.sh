@@ -58,12 +58,19 @@ _CommentEnd_
 ####+BEGIN: bx:dblock:ploneProc:bash:nodesList :types ""
 # {{{ DBLOCK-nodesList
 nodesList="
-mail
-blee-xdg
-contacts
-org-mode
+blee-pkgs
 _nodeBase_
+poly-dblocks
+contacts
+mail
 web-browse
+blee-xdg
+blee-boot
+blee-repos
+pkgAdoption
+org-mode
+snippets
+architecture
 "
 # }}} DBLOCK-nodesList
 ####+END:
