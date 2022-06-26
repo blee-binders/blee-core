@@ -9,15 +9,15 @@
 *  [[elisp:(org-cycle)][|#Control|]] :: [[elisp:(blee:bnsm:menu-back)][Back]] [[elisp:(toggle-read-only)][read/wr]] | [[elisp:(show-all)][Show-All]]  [[elisp:(org-shifttab)][Overview]]  [[elisp:(progn (org-shifttab) (org-content))][Content]] | [[elisp:(delete-other-windows)][(1)]] | [[elisp:(progn (save-buffer) (kill-buffer))][S&Q]] [[elisp:(save-buffer)][Save]] [[elisp:(kill-buffer)][Quit]] [[elisp:(bury-buffer)][Bury]]  [[elisp:(magit)][Magit]]  [[elisp:(org-cycle)][| ]]
 **  [[elisp:(bap:magit:bisos:current-bpo-repos/visit)][BPO-Repos-Magit]] ||
 **  [[elisp:(blee:buf:re-major-mode)][Re-Major-Mode]] ||  [[elisp:(org-dblock-update-buffer-bx)][Update Buf Dblocks]] || [[elisp:(org-dblock-bx-blank-buffer)][Blank Buf Dblocks]] || [[elisp:(bx:panel:variablesShow)][bx:panel:variablesShow]]
-**  [[elisp:(blee:menu-sel:comeega:maintenance:popupMenu)][||Maintenance]]
-**  This File :: *= /bisos/git/auth/bxRepos/blee-binders/blee-core/blee-boot/_nodeBase_/fullUsagePanel-en.org =*
+**  [[elisp:(blee:menu-sel:comeega:maintenance:popupMenu)][||Maintenance]] 
+**  This File :: *= /bisos/git/auth/bxRepos/blee-binders/blee-core/blee-boot/_nodeBase_/fullUsagePanel-en.org =* 
 *  [[elisp:(org-cycle)][|#Select|]]  :: (Results: [[elisp:(blee:bnsm:results-here)][Here]] | [[elisp:(blee:bnsm:results-split-below)][Below]] | [[elisp:(blee:bnsm:results-split-right)][Right]] | [[elisp:(blee:bnsm:results-other)][Other]] | [[elisp:(blee:bnsm:results-popup)][Popup]]) (Select:  [[elisp:(lsip-local-run-command "lpCurrentsAdmin.sh -i currentsGetThenShow")][Show Currents]]  [[elisp:(lsip-local-run-command "lpCurrentsAdmin.sh")][lpCurrentsAdmin.sh]] ) [[elisp:(org-cycle)][| ]]
 **  #See:  (Window: [[elisp:(blee:bnsm:results-window-show)][?]] | [[elisp:(blee:bnsm:results-window-set 0)][0]] | [[elisp:(blee:bnsm:results-window-set 1)][1]] | [[elisp:(blee:bnsm:results-window-set 2)][2]] | [[elisp:(blee:bnsm:results-window-set 3)][3]] ) || [[elisp:(lsip-local-run-command-here "echo pushd dest")][echo pushd dir]] || [[elisp:(lsip-local-run-command-here "lsf")][lsf]] || [[elisp:(lsip-local-run-command-here "pwd")][pwd]] |
 **  [[elisp:(org-cycle)][|#Destinations|]] :: [[Evolution]] | [[Maintainers]]  [[elisp:(org-cycle)][| ]]
 **  #See:  [[elisp:(bx:bnsm:top:panel-blee)][Blee]] | [[elisp:(bx:bnsm:top:panel-listOfDocs)][All Docs]]  E|
 ####+END
 ####+BEGIN: blee:bxPanel:title :panelType "=bxPanel=" :title "auto"
-* [[elisp:(show-all)][(>]] ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+* [[elisp:(show-all)][(>]] ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 
 *   [[img-link:file:/bisos/blee/env/images/fpfByStarElipseTop-50.png][http://www.freeprotocols.org]]_ _   ~Node:: blee-binders/blee-core -- blee-boot~   [[img-link:file:/bisos/blee/env/images/fpfByStarElipseBottom-50.png][http://www.by-star.net]]
 * ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━  [[elisp:(org-shifttab)][<)]] E|
 ####+END:
@@ -25,10 +25,10 @@
 * [[elisp:(show-all)][(>]] [[elisp:(describe-function 'org-dblock-write:blee:bxPanel:terseTreeNavigator)][dbf]]
 * [[elisp:(show-all)][|n]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_   General Panels ::   [[img-link:file:/bisos/blee/env/images/bystarInside.jpg][http://www.by-star.net]] *|*  [[elisp:(find-file "/libre/ByStar/InitialTemplates/activeDocs/listOfDocs/fullUsagePanel-en.org")][BxDE Top Panel]] *|* [[elisp:(blee:bnsm:panel-goto "/libre/ByStar/InitialTemplates/activeDocs/planning/Main")][ByStar Planning]]
 
-*   *Siblings*   :: [[elisp:(blee:bnsm:panel-goto "/bisos/git/auth/bxRepos/blee-binders/blee-core/architecture/_nodeBase_")][ =architecture= ]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/git/auth/bxRepos/blee-binders/blee-core/blee-boot/_nodeBase_")][ =blee-boot= ]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/git/auth/bxRepos/blee-binders/blee-core/blee-pkgs/_nodeBase_")][ =blee-pkgs= ]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/git/auth/bxRepos/blee-binders/blee-core/blee-repos/_nodeBase_")][ =blee-repos= ]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/git/auth/bxRepos/blee-binders/blee-core/blee-xdg/_nodeBase_")][ =blee-xdg= ]] *|*
-*   *Siblings*   :: [[elisp:(blee:bnsm:panel-goto "/bisos/git/auth/bxRepos/blee-binders/blee-core/contacts/_nodeBase_")][ =contacts= ]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/git/auth/bxRepos/blee-binders/blee-core/mail/_nodeBase_")][ =mail= ]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/git/auth/bxRepos/blee-binders/blee-core/org-mode/_nodeBase_")][ =org-mode= ]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/git/auth/bxRepos/blee-binders/blee-core/pkgAdoption/_nodeBase_")][ =pkgAdoption= ]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/git/auth/bxRepos/blee-binders/blee-core/poly-dblocks/_nodeBase_")][ =poly-dblocks= ]] *|*
-*   *Siblings*   :: [[elisp:(blee:bnsm:panel-goto "/bisos/git/auth/bxRepos/blee-binders/blee-core/snippets/_nodeBase_")][ =snippets= ]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/git/auth/bxRepos/blee-binders/blee-core/web-browse/_nodeBase_")][ =web-browse= ]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/git/auth/bxRepos/blee-binders/blee-core/web-search")][web-search]] *|*
-*   /Ancestors/  :: [[elisp:(blee:bnsm:panel-goto "/bisos/git/auth/bxRepos/blee-binders/blee-core/_nodeBase_")][ =blee-core= ]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/git/auth/bxRepos/blee-binders/_nodeBase_")][ =blee-binders= ]] *|*
+*   *Siblings*   :: [[elisp:(blee:bnsm:panel-goto "/bisos/git/auth/bxRepos/blee-binders/blee-core/architecture/_nodeBase_")][ =architecture= ]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/git/auth/bxRepos/blee-binders/blee-core/blee-boot/_nodeBase_")][ =blee-boot= ]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/git/auth/bxRepos/blee-binders/blee-core/blee-lisp/_nodeBase_")][ =blee-lisp= ]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/git/auth/bxRepos/blee-binders/blee-core/blee-pkgs/_nodeBase_")][ =blee-pkgs= ]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/git/auth/bxRepos/blee-binders/blee-core/blee-repos/_nodeBase_")][ =blee-repos= ]] *|* 
+*   *Siblings*   :: [[elisp:(blee:bnsm:panel-goto "/bisos/git/auth/bxRepos/blee-binders/blee-core/blee-xdg/_nodeBase_")][ =blee-xdg= ]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/git/auth/bxRepos/blee-binders/blee-core/contacts/_nodeBase_")][ =contacts= ]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/git/auth/bxRepos/blee-binders/blee-core/mail/_nodeBase_")][ =mail= ]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/git/auth/bxRepos/blee-binders/blee-core/org-mode/_nodeBase_")][ =org-mode= ]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/git/auth/bxRepos/blee-binders/blee-core/pkgAdoption/_nodeBase_")][ =pkgAdoption= ]] *|* 
+*   *Siblings*   :: [[elisp:(blee:bnsm:panel-goto "/bisos/git/auth/bxRepos/blee-binders/blee-core/poly-dblocks/_nodeBase_")][ =poly-dblocks= ]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/git/auth/bxRepos/blee-binders/blee-core/snippets/_nodeBase_")][ =snippets= ]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/git/auth/bxRepos/blee-binders/blee-core/web-browse/_nodeBase_")][ =web-browse= ]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/git/auth/bxRepos/blee-binders/blee-core/web-search")][web-search]] *|* 
+*   /Ancestors/  :: [[elisp:(blee:bnsm:panel-goto "/bisos/git/auth/bxRepos/blee-binders/blee-core/_nodeBase_")][ =blee-core= ]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/git/auth/bxRepos/blee-binders/_nodeBase_")][ =blee-binders= ]] *|* 
 *                                   _━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━_                          [[elisp:(org-shifttab)][<)]] E|
 ####+END
 ####+BEGIN: blee:bxPanel:foldingSection :outLevel 1 :title "Overview And Scope" :anchor "Panel" :extraInfo "Booting Order"
@@ -37,28 +37,92 @@
 ** +
 ** Scope of this panel is all that involves booting into blee.
 ** Blee is the emacs env plus select other GUI apps. That totality is called Gnome-Blee.
-####+BEGIN: blee:bxPanel:foldingSection :outLevel 2 :title "Booting order" :anchor "" :extraInfo "Enumerations"
-** [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(outline-show-subtree+toggle)][| /Booting order:/ |]]  Enumerations  [[elisp:(org-shifttab)][<)]] E|
+** Old Blee1 info at:
+** file:/libre/ByStar/InitialTemplates/activeDocs/blee/bleeActivities/fullUsagePanel-en.org::BleeBootProcess
+####+BEGIN: blee:bxPanel:foldingSection :outLevel 2 :title "Booting Order" :anchor "booting order" :extraInfo "Enumerations"
+** [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(outline-show-subtree+toggle)][| /Booting Order:/ |]] <<booting order>> Enumerations  [[elisp:(org-shifttab)][<)]] E|
 ####+END
 *** +
+*** Below we use blee3 and env3 with emacs-28. For other versions, change the verNu.
 *** 1) bin/blee  --- Start specified emacs with specified profile of chemacs
-*** 2) Chemacs   --- Based on specified profile, run the selected init file
-*** 3.1) blee+doom --- See [[doom+blee]]
-**** 3.1.1 dooms/doom-base-bleeVer --- init and config files files --- packages
-**** 3.1.2 29f/doom-main-bleeVer --- Re-creatable with emacsDoomManage.sh
-**** 3.1.3 With b:doom:verNu set, same as blee (pure) -- blee-boot-load.el
-*** 3.2) blee (pure) --- init-file
-*** 3.3) envVer/boot/boot-blee.el ::: sets version, sets bases, loads essential COMEEGA libs, 3.4, 3.5, 3.6
-*** 3.4) envVer/realmPre/boot.el  ::: set devMode, disable unwanted packages for site or user
-*** 3.5) envVer/main/boot.el
-**** 3.5.1) envVer/bPkgs/boot.el
-**** 3.5.2) envVer/bCaps/boot.el
-**** 3.5.3) splash screen
-*** 3.6) envVer/realmPost/boot.el  ::: Anything Extra site or user wants to do
+***  ~/.emacs.d --- Is fully controlled by Chemacs
+***  [[~/.emacs.d/early-init.el]] --- Takes us to [[chemacs-profile-early-init.el]]
+***  [[~/.emacs.d/init.el]] --- Takes us to [[chemacs-profile-init.el]]
+*** -
+*** 2) Chemacs   --- Based on specified profile in [[~/.emacs-profiles.el]], run the selected init files
+*** <<chemacs-profile-early-init.el>> [[Runs /bisos/blee/env3/boot/early-init.el]]
+*** <<chemacs-profile-init.el>> [[Runs /bisos/blee/env3/boot/init.el]]
+*** -
+*** 3.0 [[pure-blee]] Vs [[doom+blee]] --- Both are supported and used in parallel
+*** -
+*** 3.1) <<doom+blee-setup>> and  <<bleeDoomsBases>>  and [[bleeDoomsManage.sh]]
+**** In parallel with blee/chemacs2 profiles, bleeDoomManage.sh is used.
+**** blee.sh uses the doom environments that bleeDoomManage.sh creates.
+****  -----
+**** <<doomFrameworkBase>> /bisos/blee/dooms/doomemacs  --- is anon cloned from https://github.com/doomemacs/doomemacs
+**** <<doomDirBase>>  /bisos/blee/dooms/doom-base-blee3  == Equivalent of .doom.d dir for packages and config.
+**** <<doomMainBase>> /bisos/blee/emacsVers/28.1/doom-blee3  == Re-creatable by bleeDoomManage.sh 
+****  -----
+**** <<bleeDoomsManage.sh>> recreates /bisos/blee/emacsVers/28.1/doom-blee3 from /bisos/blee/dooms/doom-base-blee3
+bleeDoomsManage.sh then copy this ~doomemacs~ into /bisos/blee/emacsVers/<ver>/doom-blee3
+DOOMDIR env variable is then set to /bisos/blee/dooms/doom-base-blee3
+Based on DOOMDIR, but in /bisos/blee/emacsVers/<ver>/doom-blee3 git repos are cloned and byte-complied.
+**** /bisos/blee/dooms/doom-base-blee3/init.el  --- is composed of sansBlee
+**** /bisos/blee/dooms/doom-base-blee3/blee-boot-load.el --- starts in common with conditional pure-blee
+*** -
+*** 3.2) <<doom+blee>> --- See [[doom+blee-setup]] first
+**** <<doom+blee base>>  is at [[file:/bisos/blee/emacsVers/28.1/doom-blee3]]
+****  <<Runs Doom's early-init.el>> at [[/bisos/blee/emacsVers/28.1/doom-main-blee3/early-init.el]]
+****  <<Runs Doom's init.el>> at [[/bisos/blee/emacsVers/28.1/doom-main-blee3/init.el]]
+***** Using environment variable DOOMDIR
+**** DOOMDIR  envVar in [[bleeDoomsManage.sh]] points to [[doomDirBase]] being [[/bisos/blee/dooms/doom-base-blee3]]
+**** Doom, from  [[doomDirBase]] runs:  [[/bisos/blee/dooms/doom-base-blee2/init.el][init.el]]  file as concat of [[/bisos/blee/dooms/doom-base-blee2/initSansBlee.el][initSansBlee.el]] and  [[/bisos/blee/dooms/doom-base-blee2/loadBlee.el][loadBlee.el]]
+**** Doom, from  [[doomDirBase]] runs [[/bisos/blee/dooms/doom-base-blee2/packages.el][packages.el]]
+**** Doom, from  [[doomDirBase]] runs [[/bisos/blee/dooms/doom-base-blee2/config.el][config.el]]
+****  [[/bisos/blee/dooms/doom-base-blee2/loadBlee.el][loadBlee.el]] then load  [[/bisos/blee/dooms/doom-base-blee2/blee-init.el][blee-init.el]] which takes us to [[boot-blee]] (conditial shared with pure-blee)
+**** [[doom+blee base]] is re-creatable with emacsDoomManage.sh & should be rerun after edits to [[doomDirBase]]
+**** With <<b:doom:verNu>> and <<b:doom:enabled?>> set, same as blee (pure) -- go to [[boot-blee]]
+*** -
+*** 3.3) <<pure-blee>> based at: [[/bisos/blee/env3/boot]]
+**** <<pure-blee-early-init.el>> at [[/bisos/blee/env3/boot/early-init.el]]
+***** Disable emacs's native package.el as we use straight instead. (setq package-enable-at-startup nil)
+**** <<pure-blee-init.el>> at [[/bisos/blee/env3/boot/init.el]]
+***** Repeated. Disable package.el as we use straight instead. ;;(setq package-enable-at-startup nil)
+***** Make it known that doom is not enabled. ;;(defvar b:doom:enabled? nil)
+***** Bootstrap straight.el. ;;(load "straight-setup.el") at [[/bisos/blee/env3/boot/straight-setup.el]]
+***** Load boot-blee.el. [[boot-blee]]
+*** -
+*** 3.3.1) <<boot-blee>> at  [[/bisos/blee/env3/boot/boot-blee.el]]
+**** We can get here from [[doom+blee]]  with *b:doom:enabled?* set to true.
+**** We can get here from [[pure-blee]]  with *b:doom:enabled?* set to nil.
+**** At this point straight has been bootstrapped. Either in Doom or in pure-blee.
+**** Goal is to allow for all follow on modules to be in COMEEGA. As early as possible.
+**** increase grabage collection limit for booting.
+**** Sets blee-version by loading  [[/bisos/blee/env3/boot/blee-version.el]]
+**** Loads <<control/central.el>>  [[/bisos/blee/env3/control/central.el]]
+**** COMEEGA preparartion. install native comment-block package.
+**** COMEEGA preparartion. install native blee-libs package.
+**** Loads  [[/bisos/blee/env3/main/main-init.el]] -- [[main-init]]
+**** restore grabage collection after booting
+*** -
+*** 3.3.2) <<main-init>> at  [[/bisos/blee/env3/main/main-init.el]]
+**** This module is in COMEEGA.
+**** sets functional area bases, loads essential COMEEGA libs, 3.4, 3.5, 3.6
+**** TODO envVer/realmPre/boot.el  ::: set devMode, disable unwanted packages for site or user
+**** Starts requiring all functional areas/
+**** TODO envVer/realmPost/boot.el  ::: Anything Extra site or user wants to do
 *** -
 ** B|
+####+BEGIN: blee:bxPanel:foldingSection :sep t :outLevel 1 :title "Plans And TODOs" :anchor "" :extraInfo "text, dblock, elisp, inserts"
+* /[[elisp:(beginning-of-buffer)][|^]]  [[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]] [[elisp:(delete-other-windows)][|1]]/ 
+* [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(outline-show-subtree+toggle)][| *Plans And TODOs:* |]]  text, dblock, elisp, inserts  [[elisp:(org-shifttab)][<)]] E|
+####+END
+** +
+** TODO Early on in boot, load orgComment, etc. From /bisos/git/bxRepos/blee/xxx
+** TODO Early on on in boot, setup realms and set default emacs dir.
+** B|
 ####+BEGIN: blee:bxPanel:foldingSection :sep t :outLevel 1 :title "Policies And Key Choices" :anchor "" :extraInfo "text, dblock, elisp, inserts"
-* /[[elisp:(beginning-of-buffer)][|^]]  [[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]] [[elisp:(delete-other-windows)][|1]]/
+* /[[elisp:(beginning-of-buffer)][|^]]  [[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]] [[elisp:(delete-other-windows)][|1]]/ 
 * [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(outline-show-subtree+toggle)][| *Policies And Key Choices:* |]]  text, dblock, elisp, inserts  [[elisp:(org-shifttab)][<)]] E|
 ####+END
 ** +
@@ -68,64 +132,64 @@
 ** Doom Blee is used for harvesting purposes. dblee is tactical not strategic.
 ** B|
 ####+BEGIN: blee:bxPanel:foldingSection :sep t :outLevel 0 :title "Emacs Substrate And Emacs Eocsystem" :anchor "" :extraInfo "Should Become A Link"
-* /[[elisp:(beginning-of-buffer)][|^]]  [[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]] [[elisp:(delete-other-windows)][|1]]/
+* /[[elisp:(beginning-of-buffer)][|^]]  [[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]] [[elisp:(delete-other-windows)][|1]]/ 
 * [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_     [[elisp:(outline-show-subtree+toggle)][| _Emacs Substrate And Emacs Eocsystem_: |]]  Should Become A Link  [[elisp:(org-shifttab)][<)]] E|
 ####+END
 ** +
 ** TODO Setup /bisos/blee/bin
 ** B|
 ####+BEGIN: blee:bxPanel:foldingSection :sep t :outLevel 1 :title "lcaEmacsSrcBinsPrep.sh" :anchor ""
-* /[[elisp:(beginning-of-buffer)][|^]]  [[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]] [[elisp:(delete-other-windows)][|1]]/
+* /[[elisp:(beginning-of-buffer)][|^]]  [[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]] [[elisp:(delete-other-windows)][|1]]/ 
 * [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(outline-show-subtree+toggle)][| *lcaEmacsSrcBinsPrep.sh:* |]]    [[elisp:(org-shifttab)][<)]] E|
 ####+END
 ** +
 ** run the script
 ** B|
 ####+BEGIN: blee:bxPanel:foldingSection :sep t :outLevel 0 :title "Blee Bases" :anchor ""
-* /[[elisp:(beginning-of-buffer)][|^]]  [[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]] [[elisp:(delete-other-windows)][|1]]/
+* /[[elisp:(beginning-of-buffer)][|^]]  [[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]] [[elisp:(delete-other-windows)][|1]]/ 
 * [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_     [[elisp:(outline-show-subtree+toggle)][| _Blee Bases_: |]]    [[elisp:(org-shifttab)][<)]] E|
 ####+END
 ** +
 ** TODO Setup /bisos/blee/bin
 ** B|
 ####+BEGIN: blee:bxPanel:foldingSection :sep t :outLevel 0 :title "Blee Scripts" :anchor ""
-* /[[elisp:(beginning-of-buffer)][|^]]  [[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]] [[elisp:(delete-other-windows)][|1]]/
+* /[[elisp:(beginning-of-buffer)][|^]]  [[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]] [[elisp:(delete-other-windows)][|1]]/ 
 * [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_     [[elisp:(outline-show-subtree+toggle)][| _Blee Scripts_: |]]    [[elisp:(org-shifttab)][<)]] E|
 ####+END
 ** +
 ** TODO Setup /bisos/core/blee or
 ** B|
 ####+BEGIN: blee:bxPanel:foldingSection :sep t :outLevel 1 :title "Main Blee Script" :anchor ""
-* /[[elisp:(beginning-of-buffer)][|^]]  [[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]] [[elisp:(delete-other-windows)][|1]]/
+* /[[elisp:(beginning-of-buffer)][|^]]  [[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]] [[elisp:(delete-other-windows)][|1]]/ 
 * [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(outline-show-subtree+toggle)][| *Main Blee Script:* |]]    [[elisp:(org-shifttab)][<)]] E|
 ####+END
 ** +
 **
 ** B|
 ####+BEGIN: blee:bxPanel:foldingSection :sep t :outLevel 1 :title "BleeBinsPrep" :anchor ""
-* /[[elisp:(beginning-of-buffer)][|^]]  [[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]] [[elisp:(delete-other-windows)][|1]]/
+* /[[elisp:(beginning-of-buffer)][|^]]  [[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]] [[elisp:(delete-other-windows)][|1]]/ 
 * [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(outline-show-subtree+toggle)][| *BleeBinsPrep:* |]]    [[elisp:(org-shifttab)][<)]] E|
 ####+END
 ** +
 ** Start produces the equivalent of begin at command-line.
 ** B|
 ####+BEGIN: blee:bxPanel:foldingSection :outLevel 0 :sep t :title "Chemacs" :anchor "" :extraInfo ""
-* /[[elisp:(beginning-of-buffer)][|^]]  [[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]] [[elisp:(delete-other-windows)][|1]]/
+* /[[elisp:(beginning-of-buffer)][|^]]  [[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]] [[elisp:(delete-other-windows)][|1]]/ 
 * [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_     [[elisp:(outline-show-subtree+toggle)][| _Chemacs_: |]]    [[elisp:(org-shifttab)][<)]] E|
 ####+END
 ** +
 ** Start produces the equivalent of begin at command-line.
 ** B|
 ####+BEGIN: blee:bxPanel:foldingSection :outLevel 0 :sep t :title "Straight" :anchor "" :extraInfo ""
-* /[[elisp:(beginning-of-buffer)][|^]]  [[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]] [[elisp:(delete-other-windows)][|1]]/
+* /[[elisp:(beginning-of-buffer)][|^]]  [[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]] [[elisp:(delete-other-windows)][|1]]/ 
 * [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_     [[elisp:(outline-show-subtree+toggle)][| _Straight_: |]]    [[elisp:(org-shifttab)][<)]] E|
 ####+END
 ** +
 ** Needs to be configured to put compiled binaries similar to doom.
 ** B|
-####+BEGIN: blee:bxPanel:foldingSection :outLevel 0 :sep t :title "Doom+Blee" :anchor "Doom+Blee" :extraInfo "Doom WithBlee And SansBlee"
-* /[[elisp:(beginning-of-buffer)][|^]]  [[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]] [[elisp:(delete-other-windows)][|1]]/
-* [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_     [[elisp:(outline-show-subtree+toggle)][| _Doom+Blee_: |]] <<Doom+Blee>> Doom WithBlee And SansBlee  [[elisp:(org-shifttab)][<)]] E|
+####+BEGIN: blee:bxPanel:foldingSection :outLevel 0 :sep t :title "Doom+Blee" :anchor "OBSOLETED" :extraInfo "Doom WithBlee And SansBlee"
+* /[[elisp:(beginning-of-buffer)][|^]]  [[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]] [[elisp:(delete-other-windows)][|1]]/ 
+* [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_     [[elisp:(outline-show-subtree+toggle)][| _Doom+Blee_: |]] <<OBSOLETED>> Doom WithBlee And SansBlee  [[elisp:(org-shifttab)][<)]] E|
 ####+END
 *** +
 *** TODO Verify all paths are accurate
@@ -138,14 +202,14 @@
 **** /bisos/blee/dooms/doom-base-bleeVer/blee-boot-load.el
 *** B|
 ####+BEGIN: blee:bxPanel:foldingSection :outLevel 0 :sep t :title "Blee Boot" :anchor "" :extraInfo "Incomplete"
-* /[[elisp:(beginning-of-buffer)][|^]]  [[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]] [[elisp:(delete-other-windows)][|1]]/
+* /[[elisp:(beginning-of-buffer)][|^]]  [[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]] [[elisp:(delete-other-windows)][|1]]/ 
 * [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_     [[elisp:(outline-show-subtree+toggle)][| _Blee Boot_: |]]  Incomplete  [[elisp:(org-shifttab)][<)]] E|
 ####+END
 *** +
 *** TODO Overview of implementation
 *** B|
 ####+BEGIN: blee:bxPanel:foldingSection :outLevel 2 :sep t :title "Usage Realm" :anchor "" :extraInfo "Incomplete"
-** /[[elisp:(beginning-of-buffer)][|^]]  [[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]] [[elisp:(delete-other-windows)][|1]]/
+** /[[elisp:(beginning-of-buffer)][|^]]  [[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]] [[elisp:(delete-other-windows)][|1]]/ 
 ** [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(outline-show-subtree+toggle)][| /Usage Realm:/ |]]  Incomplete  [[elisp:(org-shifttab)][<)]] E|
 ####+END
 *** +
@@ -165,13 +229,13 @@
 *** TODO Some Idea
 ####+BEGIN: blee:bxPanel:evolutionMaintainers
 ** [[elisp:(show-all)][(>]] [[elisp:(describe-function 'org-dblock-write:blee:bxPanel:evolutionMaintainers)][dbf]]
-** [[elisp:(show-all)][|n]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(org-cycle)][| /Bug Reports, Development Team:/ | ]]  <<Maintainers>>
+** [[elisp:(show-all)][|n]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(org-cycle)][| /Bug Reports, Development Team:/ | ]]  <<Maintainers>>  
 ***  Problem Report                       ::   [[elisp:(find-file "")][Send debbug Email]]
 ***  Maintainers                          ::   [[bbdb:Mohsen.*Banan]]  :: http://mohsen.1.banan.byname.net  E|
 ####+END
 * B|
 ####+BEGIN: blee:bxPanel:footerPanelControls
-* [[elisp:(show-all)][(>]] ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+* [[elisp:(show-all)][(>]] ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 
 * /Footer Controls/ ::  [[elisp:(blee:bnsm:menu-back)][Back]]  [[elisp:(toggle-read-only)][toggle-read-only]]  [[elisp:(show-all)][Show-All]]  [[elisp:(org-shifttab)][Cycle Glob Vis]]  [[elisp:(delete-other-windows)][1 Win]]  [[elisp:(save-buffer)][Save]]   [[elisp:(kill-buffer)][Quit]]  [[elisp:(org-shifttab)][<)]] E|
 ####+END
 ####+BEGIN: blee:bxPanel:footerOrgParams

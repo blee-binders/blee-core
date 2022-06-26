@@ -9,15 +9,15 @@
 *  [[elisp:(org-cycle)][|#Control|]] :: [[elisp:(blee:bnsm:menu-back)][Back]] [[elisp:(toggle-read-only)][read/wr]] | [[elisp:(show-all)][Show-All]]  [[elisp:(org-shifttab)][Overview]]  [[elisp:(progn (org-shifttab) (org-content))][Content]] | [[elisp:(delete-other-windows)][(1)]] | [[elisp:(progn (save-buffer) (kill-buffer))][S&Q]] [[elisp:(save-buffer)][Save]] [[elisp:(kill-buffer)][Quit]] [[elisp:(bury-buffer)][Bury]]  [[elisp:(magit)][Magit]]  [[elisp:(org-cycle)][| ]]
 **  [[elisp:(bap:magit:bisos:current-bpo-repos/visit)][BPO-Repos-Magit]] ||
 **  [[elisp:(blee:buf:re-major-mode)][Re-Major-Mode]] ||  [[elisp:(org-dblock-update-buffer-bx)][Update Buf Dblocks]] || [[elisp:(org-dblock-bx-blank-buffer)][Blank Buf Dblocks]] || [[elisp:(bx:panel:variablesShow)][bx:panel:variablesShow]]
-**  [[elisp:(blee:menu-sel:comeega:maintenance:popupMenu)][||Maintenance]]
-**  This File :: *= /bisos/git/auth/bxRepos/blee-binders/blee-core/blee-pkgs/blee-name-spaces/_nodeBase_/fullUsagePanel-en.org =*
+**  [[elisp:(blee:menu-sel:comeega:maintenance:popupMenu)][||Maintenance]] 
+**  This File :: *= /bisos/panels/blee-core/blee-lisp/blee-name-spaces/_nodeBase_/fullUsagePanel-en.org =* 
 *  [[elisp:(org-cycle)][|#Select|]]  :: (Results: [[elisp:(blee:bnsm:results-here)][Here]] | [[elisp:(blee:bnsm:results-split-below)][Below]] | [[elisp:(blee:bnsm:results-split-right)][Right]] | [[elisp:(blee:bnsm:results-other)][Other]] | [[elisp:(blee:bnsm:results-popup)][Popup]]) (Select:  [[elisp:(lsip-local-run-command "lpCurrentsAdmin.sh -i currentsGetThenShow")][Show Currents]]  [[elisp:(lsip-local-run-command "lpCurrentsAdmin.sh")][lpCurrentsAdmin.sh]] ) [[elisp:(org-cycle)][| ]]
 **  #See:  (Window: [[elisp:(blee:bnsm:results-window-show)][?]] | [[elisp:(blee:bnsm:results-window-set 0)][0]] | [[elisp:(blee:bnsm:results-window-set 1)][1]] | [[elisp:(blee:bnsm:results-window-set 2)][2]] | [[elisp:(blee:bnsm:results-window-set 3)][3]] ) || [[elisp:(lsip-local-run-command-here "echo pushd dest")][echo pushd dir]] || [[elisp:(lsip-local-run-command-here "lsf")][lsf]] || [[elisp:(lsip-local-run-command-here "pwd")][pwd]] |
 **  [[elisp:(org-cycle)][|#Destinations|]] :: [[Evolution]] | [[Maintainers]]  [[elisp:(org-cycle)][| ]]
 **  #See:  [[elisp:(bx:bnsm:top:panel-blee)][Blee]] | [[elisp:(bx:bnsm:top:panel-listOfDocs)][All Docs]]  E|
 ####+END
 ####+BEGIN: blee:bxPanel:title :panelType "=bxPanel=" :title "auto"
-* [[elisp:(show-all)][(>]] ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+* [[elisp:(show-all)][(>]] ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 
 *   [[img-link:file:/bisos/blee/env/images/fpfByStarElipseTop-50.png][http://www.freeprotocols.org]]_ _   auto   [[img-link:file:/bisos/blee/env/images/fpfByStarElipseBottom-50.png][http://www.by-star.net]]
 * ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━  [[elisp:(org-shifttab)][<)]] E|
 ####+END:
@@ -34,14 +34,41 @@
 ** +
 ** b: and its subspaces.
 ** B|
+####+BEGIN: blee:bxPanel:foldingSection :outLevel 1 :sep t :title "Name Spaces And Module Names" :anchor "" :extraInfo ""
+* [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(outline-show-subtree+toggle)][| *Name Spaces And Module Names:* |]]    [[elisp:(org-shifttab)][<)]] E|
+####+END
+** +
+** ---- Packages
+** b:npa:      Blee Native Package Adoption          b:npa:pkgName:
+** b:cpa:      Blee Component Package Adoption       b:cpa:pkgName:
+** b:pg:       Blee Packages Grouping                b:pg:groupingName
+** ---- Menus??
+** ---- Dblocks??
+**  b:f: (Facets -- capability grouping) are for interdependent multiple packages configuration and enhancements
+     For example: b:f:mail:out/ b:f:mail:in/ b:f:core/
+     For example b:f:font/  b:f:bidi/ b:f:m17n/ b:f:server/
+     b:f:ide:py/ b:f:ide:bash/
+**  bxde:  (ByStar Oid) related
+**  bue: (ByStar User Environment) (setq bue:notify 'visualBell) |
+**  ext: Extensions to other packages (ext:org-xxx)
+** B|
 ####+BEGIN: blee:bxPanel:foldingSection :outLevel 1 :title "Package Adoption And Grouping" :anchor "b:npa b:npg b:cpa b:cpg"
 * [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(outline-show-subtree+toggle)][| *Package Adoption And Grouping:* |]] <<b:npa b:npg b:cpa b:cpg>>   [[elisp:(org-shifttab)][<)]] E|
 ####+END
 ** +
+** Must be consistent with:
+** file:[[/bisos/git/auth/bxRepos/blee-binders/blee-core/architecture/_nodeBase_/fullUsagePanel-en.org]]
+** ---
 ** Native Package Adoption --- b:npa  --- bnpa-packageName.el
 ** Native Package Grouping --- b:npg  --- bnpg-functionality.el
 ** Component Package Adoption --- b:cpa  --- bcpa-packageName.el
 ** Component Package Grouping  --- b:cpg  --- bcpa-functionality.el
+** B|
+####+BEGIN: blee:bxPanel:foldingSection :outLevel 1 :title "b:g: --- Blee Global Variables" :anchor ""
+* [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(outline-show-subtree+toggle)][| *b:g: --- Blee Global Variables:* |]]    [[elisp:(org-shifttab)][<)]] E|
+####+END
+** +
+** b:g:dev:mode?   --- Boolean type, When true, Packages are editable
 ** B|
 ####+BEGIN: blee:bxPanel:separator :outLevel 1
 * /[[elisp:(beginning-of-buffer)][|^]] [[elisp:(blee:menu-sel:navigation:popupMenu)][==]] [[elisp:(delete-other-windows)][|1]]/
