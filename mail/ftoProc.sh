@@ -13,13 +13,13 @@ __copying__="
 
 ####+BEGIN: bx:bsip:bash:seed-spec :types "seedFtoCommon.sh"
 SEED="
-*  /[dblock]/ /Seed/ :: [[file:/bisos/core/bsip/bin/seedFtoCommon.sh]] | 
+*  /[dblock]/ /Seed/ :: [[file:/bisos/core/bsip/bin/seedFtoCommon.sh]] |
 "
 FILE="
-*  /This File/ :: /bisos/panels/blee-core/mail/ftoProc.sh 
+*  /This File/ :: /bisos/git/auth/bxRepos/blee-binders/blee-core/mail/ftoProc.sh
 "
 if [ "${loadFiles}" == "" ] ; then
-    /bisos/core/bsip/bin/seedFtoCommon.sh -l $0 "$@" 
+    /bisos/core/bsip/bin/seedFtoCommon.sh -l $0 "$@"
     exit $?
 fi
 ####+END:
@@ -57,14 +57,16 @@ _CommentEnd_
 ####+BEGIN: bx:dblock:ploneProc:bash:nodesList :types ""
 # {{{ DBLOCK-nodesList
 nodesList="
-message-mode
 _nodeBase_
-mailings-orig
-reading
+Gnus
+mcdt
 model
+mua-abstract
 sending
 mailings
-Gnus
+message-mode
+reading
+mailings-orig
 "
 # }}} DBLOCK-nodesList
 ####+END:
