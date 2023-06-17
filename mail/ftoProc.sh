@@ -57,14 +57,14 @@ _CommentEnd_
 ####+BEGIN: bx:dblock:ploneProc:bash:nodesList :types ""
 # {{{ DBLOCK-nodesList
 nodesList="
+emacs-message-mode
+emacs-Gnus
 _nodeBase_
-Gnus
-mcdt
+development
 model
 mua-abstract
 sending
 mailings
-message-mode
 reading
 mailings-orig
 "

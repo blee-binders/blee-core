@@ -37,6 +37,9 @@
 ** Old panel is at:
 ** It is oriented towards usage. It is broken into two workflows.
 ** B|
+* +
+* Pkgs Base: file:/bisos/git/bxRepos/blee/mcdt
+* -
 ####+BEGIN: blee:bxPanel:foldingSection :outLevel 0 :sep t :title "Mailing Composition Workflow" :anchor "" :extraInfo "create+invoke+edit+send"
 * /[[elisp:(beginning-of-buffer)][|^]]  [[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]] [[elisp:(delete-other-windows)][|1]]/
 * [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_     [[elisp:(outline-show-subtree+toggle)][| _Mailing Composition Workflow_: |]]  create+invoke+edit+send  [[elisp:(org-shifttab)][<)]] E|

@@ -33,6 +33,18 @@
 * [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(outline-show-subtree+toggle)][| *Overview:* |]] <<Panel>>   [[elisp:(org-shifttab)][<)]] E|
 ####+END
 ** +
+** TODO MARMEE should come here.
+** −−−−
+** Title of Globish Document: Mail Composition Distribution And Tracking (MCDT) With
+** Emacs/Blee + XeLaTeX + Org + BISOS
+** In Conjustion With
+** Multi-Account Resident Mail Exchange Environment (MARMEE)
+** −−−−
+** Title of Farsi Document: رایانامه نگاریِ سالم
+** در چاهار چوب حلال وجودیت  و با هم زِدندِگانی
+** پاسخی اخلاقی به اینترنت آمریکایی
+** −−−−
+--
 ** Documentaion From Source:
 ;;; Given a self-contained mailingFile (usually called content.mail) or within a mailingFile-buffer, using macros, mcdt creates
 ;;; a series of commands that allow for customized-compostion, sending and distribution of those
@@ -57,6 +69,11 @@
 3) Static -- Ready to be sent -- static content -- No editing
 4) Dynamic -- Ready to be sent -- templated content -- info inserted at execution time.
 ** B|
+* +
+* Pkgs Base: file:/bisos/git/bxRepos/blee/mcdt
+* -
+####+BEGIN: blee:bxPanel:separator :outLevel 1
+
 ####+BEGIN: blee:bxPanel:foldingSection :outLevel 1 :sep t :title "Mail Templating, Distrubution And Tracking -- Design" :anchor "" :extraInfo ""
 * /[[elisp:(beginning-of-buffer)][|^]]  [[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]] [[elisp:(delete-other-windows)][|1]]/
 * [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(outline-show-subtree+toggle)][| *Mail Templating, Distrubution And Tracking -- Design:* |]]    [[elisp:(org-shifttab)][<)]] E|

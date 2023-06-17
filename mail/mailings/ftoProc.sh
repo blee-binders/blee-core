@@ -57,7 +57,6 @@ _CommentEnd_
 ####+BEGIN: bx:dblock:ploneProc:bash:nodesList :types ""
 # {{{ DBLOCK-nodesList
 nodesList="
-emacs-mtdt
 _nodeBase_
 mtdt-usage
 mtdt-conceptAndDesign
