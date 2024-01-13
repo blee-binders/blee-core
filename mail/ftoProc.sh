@@ -16,7 +16,7 @@ SEED="
 *  /[dblock]/ /Seed/ :: [[file:/bisos/core/bsip/bin/seedFtoCommon.sh]] |
 "
 FILE="
-*  /This File/ :: /bisos/git/auth/bxRepos/blee-binders/blee-core/mail/ftoProc.sh
+*  /This File/ :: /bisos/panels/blee-core/mail/ftoProc.sh
 "
 if [ "${loadFiles}" == "" ] ; then
     /bisos/core/bsip/bin/seedFtoCommon.sh -l $0 "$@"
@@ -58,6 +58,7 @@ _CommentEnd_
 # {{{ DBLOCK-nodesList
 nodesList="
 emacs-message-mode
+mail-search
 emacs-Gnus
 _nodeBase_
 development
