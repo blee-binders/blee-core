@@ -122,30 +122,33 @@ Based on DOOMDIR, but in /bisos/blee/emacsVers/<ver>/doom-blee3 git repos are cl
 * [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(outline-show-subtree+toggle)][| *Tabular Hierarchy, Order and Links:* |]] <<tabular>> emacs, chemacs, doom, boot  [[elisp:(org-shifttab)][<)]] E|
 ####+END
 
-|-------+-------------------------+-------------------------|
-| Emacs | sys=bin  ver=/usr/local | emacs 28.2 and emacs 30 |
-|-------+-------------------------+-------------------------|
-|       | [[lcaEmacsSrcBinsPrep.sh]]  |                         |
-|-------+-------------------------+-------------------------|
+|----------------+----------------------------+-------------------------|
+| Emacs Binaries | sys=bin  ver=/usr/local    | emacs 28.2 and emacs 30 |
+|----------------+----------------------------+-------------------------|
+|                | [[lcaEmacsSrcBinsPrep.sh]] |                         |
+|----------------+----------------------------+-------------------------|
 
 |-------------+----------------------+------------------------------------------------------------|
 | chemacs:    | ~/.emacs-profiles.el | ~/.emacs.d/chemacs.el                                      |
 |-------------+----------------------+------------------------------------------------------------|
 | chemacs:    | blee -i buildChemacs |                                                            |
 |-------------+----------------------+------------------------------------------------------------|
-| ch-profile: | default              |                                                            |
+| ch-profile: | default              | 2024 (doom-blee3)                                           |
 |             | doom-dist            | Doom as distrubted                                         |
-|             | blee1                | Old, no doom at all                                        |
+|             | blee1                | Old, no doom at all -- But works                           |
 |             | doom-blee3           | Primary as of 2023                                         |
 |             | doom-sansBlee3       | doom-blee3 pkgs and config without blee3, for testing      |
-|             | doom-sansBlee3       | TODO Add profile in bleeDoomsManage.sh
+|             | doom-sansBlee3       | TODO Add profile in bleeDoomsManage.sh                     |
 |             | blee3                | Pure blee, uses frozen packages of doom-blee3 without doom |
 |-------------+----------------------+------------------------------------------------------------|
+
+NOTYET, Capture straight and doom straight signatures.
 
 |-------+----------------------------------------------+-----------------------------------|
 | doom: | Execution Base                               | Configuration Base                |
 | doom: | /bisos/blee/emacsVers/28.1.50/doom-main-pure | /bisos/blee/dooms/doom-base-blee3 |
-| doom: | ~/.doom                                      |                                   |
+| doom: | doom-sansBlee3                               | doom-base-sansBlee3               |
+| doom: | ~/.doom.d Overwritten by  Env                |                                   |
 |       | bleeDoomsManage.sh                           |                                   |
 | doom: | TODO ask doom developers to add extras.el    | Instead of dblocks in config.el   |
 |-------+----------------------------------------------+-----------------------------------|
@@ -174,6 +177,16 @@ Based on DOOMDIR, but in /bisos/blee/emacsVers/<ver>/doom-blee3 git repos are cl
 * [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(outline-show-subtree+toggle)][| *Plans And TODOs:* |]]  text, dblock, elisp, inserts  [[elisp:(org-shifttab)][<)]] E|
 ####+END
 ** +
+** TODO [#A] Cleanup and redo blee script
+SCHEDULED: <2024-02-23 Fri>
+** TODO Restructure /bisos/blee/dooms -- /bisos/blee/doom/dists + /bisos/blee/doom/bases - Remove old links
+SCHEDULED: <2024-02-23 Fri>
+** TODO [#A] Get PureBlee3 to work
+SCHEDULED: <2024-02-23 Fri>
+** TODO [#A] image in scratch does not work -- Test in dev environment
+SCHEDULED: <2024-02-22 Thu>
+** TODO [#A] Missing doom-mode-lines -- Test in dev environment
+SCHEDULED: <2024-02-22 Thu>
 ** TODO Early on in boot, load orgComment, etc. From /bisos/git/bxRepos/blee/xxx
 ** TODO Early on on in boot, setup realms and set default emacs dir.
 ** B|
