@@ -51,16 +51,17 @@
 * /[[elisp:(beginning-of-buffer)][|^]]  [[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]] [[elisp:(delete-other-windows)][|1]]/ 
 * [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(outline-show-subtree+toggle)][| *Global Variables Naming Conventions:* |]]    [[elisp:(org-shifttab)][<)]] E|
 ####+END
-** nameSapce:mod:subMod/cmnd-name          # Commands as interactive
-** nameSapce:mod:subMod|func-name          # Exposed functions
+** nameSapce:mod:subMod/cmnd-name          # Commands as interactive --(defun (interactive)
+** nameSapce:mod:subMod|func-name          # Exposed functions --(defun
 ** nameSapce:mod:subMod~func-name          # Internal/Private functions --Equivalent of $nameSapce:mod:subMod|func-name
-** $:b:mod                                 # Internal/Private functions
-** nameSapce:mod:subMod$macro-name         # macros
-** nameSapce:mod:subMod:var-name           # Variables
+** $:b:mod                                 # Internal/Private functions  --(defun
+** nameSapce:mod:subMod$macro-name         # macros -- (defmacro)
+** nameSapce:mod:subMod:var-name           # Variables -- (defvar
 ** nameSapce:mod:subMod:var-name:~         # Buffer-Local-Variables
-** nameSapce:mod:subMod::var-name          # Constantes
+** nameSapce:mod:subMod::var-name          # Constantes -- (defconst
+** nameSapce:mod:subMod+var-name           # Defcustom -- (defcustom
 ** nameSapce:mod:subMod:var-name:          # Structures
-** nameSapce:mod:subMod|func-name*         # CL style Exposed functions
+** nameSapce:mod:subMod|func-name*         # CL style Exposed functions -- (cl-defun
 ** +
 ** Blee nameSpaces are one of (b: blee: bap: bcg: bide: bx: bxde:)    [[bleeNameSpaces]]
 ** Some mod and subMod are defined below    [[bleeModules]]
