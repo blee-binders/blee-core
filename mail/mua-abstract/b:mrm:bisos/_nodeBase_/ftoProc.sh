@@ -16,7 +16,7 @@ SEED="
 *  /[dblock]/ /Seed/ :: [[file:/bisos/core/bsip/bin/seedFtoCommon.sh]] |
 "
 FILE="
-*  /This File/ :: /bisos/git/auth/bxRepos/blee-binders/blee-core/mail/mua-abstract/b:mrm:bisos/_nodeBase_/ftoProc.sh
+*  /This File/ :: /bisos/panels/blee-core/mail/mua-abstract/b:mrm:bisos/_nodeBase_/ftoProc.sh
 "
 if [ "${loadFiles}" == "" ] ; then
     /bisos/core/bsip/bin/seedFtoCommon.sh -l $0 "$@"
