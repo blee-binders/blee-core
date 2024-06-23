@@ -44,6 +44,7 @@
 * https://github.com/p3r7/awesome-elisp   # Top level Pointer to lots
 * https://github.com/bbatsov/emacs-lisp-style-guide
 * https://alphapapa.github.io/emacs-package-dev-handbook/
+* https://github.com/alphapapa/emacs-package-dev-handbook
 * B|
 ####+BEGIN: blee:bxPanel:separator :outLevel 1
 * /[[elisp:(beginning-of-buffer)][|^]] [[elisp:(blee:menu-sel:navigation:popupMenu)][==]] [[elisp:(delete-other-windows)][|1]]/

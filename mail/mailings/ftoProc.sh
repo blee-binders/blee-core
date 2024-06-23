@@ -57,13 +57,13 @@ _CommentEnd_
 ####+BEGIN: bx:dblock:ploneProc:bash:nodesList :types ""
 # {{{ DBLOCK-nodesList
 nodesList="
+mtdt-share
+mtdt-distribution
+mtdt-names
+mtdt
 _nodeBase_
-mtdt-usage
-mtdt-conceptAndDesign
-mtdt-devel
-names
-distributions
-recipients
+mtdt-mailing
+mtdtOld
 "
 # }}} DBLOCK-nodesList
 ####+END:
