@@ -24,8 +24,7 @@
 ####+END:
 ####+BEGIN: blee:bxPanel:terseTreeNavigator :panelsList "bxPanel"
 * [[elisp:(show-all)][(>]] [[elisp:(describe-function 'org-dblock-write:blee:bxPanel:terseTreeNavigator)][dbf]]
-* [[elisp:(show-all)][|n]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_   General Panels ::   [[img-link:file:/bisos/blee/env/images/bystarInside.jpg][http://www.by-star.net]] *|*  [[elisp:(find-file "/libre/ByStar/InitialTemplates/activeDocs/listOfDocs/fullUsagePanel-en.org")][BxDE Top Panel]] *|* [[elisp:(blee:bnsm:panel-goto "/libre/ByStar/InitialTemplates/activeDocs/planning/Main")][ByStar Planning]]
-
+* +
 *   =Decedents=  :: [[elisp:(blee:bnsm:panel-goto "/bisos/panels/blee-core/blee-elisp/blee-name-spaces/_nodeBase_")][ =blee-name-spaces= ]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/panels/blee-core/blee-elisp/namingConventions/_nodeBase_")][ =namingConventions= ]] *|*
 *                                        *━━━━━━━━━━━━━━━━━━━━━━━━*
 *   *Siblings*   :: [[elisp:(blee:bnsm:panel-goto "/bisos/panels/blee-core/COMEEGA/_nodeBase_")][ =COMEEGA= ]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/panels/blee-core/architecture/_nodeBase_")][ =architecture= ]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/panels/blee-core/blee-boot/_nodeBase_")][ =blee-boot= ]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/panels/blee-core/blee-elisp/_nodeBase_")][ =blee-elisp= ]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/panels/blee-core/blee-pkgs/_nodeBase_")][ =blee-pkgs= ]] *|*

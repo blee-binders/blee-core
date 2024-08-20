@@ -24,8 +24,7 @@
 ####+END:
 ####+BEGIN: blee:bxPanel:terseTreeNavigator :panelsList "bxPanel"
 * [[elisp:(show-all)][(>]] [[elisp:(describe-function 'org-dblock-write:blee:bxPanel:terseTreeNavigator)][dbf]]
-* [[elisp:(show-all)][|n]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_   General Panels ::   [[img-link:file:/bisos/blee/env/images/bystarInside.jpg][http://www.by-star.net]] *|*  [[elisp:(find-file "/libre/ByStar/InitialTemplates/activeDocs/listOfDocs/fullUsagePanel-en.org")][BxDE Top Panel]] *|* [[elisp:(blee:bnsm:panel-goto "/libre/ByStar/InitialTemplates/activeDocs/planning/Main")][ByStar Planning]]
-
+* +
 *                                        *━━━━━━━━━━━━━━━━━━━━━━━━*
 *   *Siblings*   :: [[elisp:(blee:bnsm:panel-goto "/bisos/panels/blee-core/mail/development/_nodeBase_")][ =development= ]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/panels/blee-core/mail/emacs-Gnus/_nodeBase_")][ =emacs-Gnus= ]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/panels/blee-core/mail/emacs-message-mode/_nodeBase_")][ =emacs-message-mode= ]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/panels/blee-core/mail/mail-search/_nodeBase_")][ =mail-search= ]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/panels/blee-core/mail/mailings/_nodeBase_")][ =mailings= ]] *|*
 *   *Siblings*   :: [[elisp:(blee:bnsm:panel-goto "/bisos/panels/blee-core/mail/mailings-orig/_nodeBase_")][ =mailings-orig= ]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/panels/blee-core/mail/model/_nodeBase_")][ =model= ]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/panels/blee-core/mail/mua-abstract/_nodeBase_")][ =mua-abstract= ]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/panels/blee-core/mail/reading/_nodeBase_")][ =reading= ]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/panels/blee-core/mail/sending/_nodeBase_")][ =sending= ]] *|*
