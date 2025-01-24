@@ -24,13 +24,12 @@
 ####+END:
 ####+BEGIN: blee:bxPanel:terseTreeNavigator :panelsList "bxPanel"
 * [[elisp:(show-all)][(>]] [[elisp:(describe-function 'org-dblock-write:blee:bxPanel:terseTreeNavigator)][dbf]]
-* [[elisp:(show-all)][|n]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_   General Panels ::   [[img-link:file:/bisos/blee/env/images/bystarInside.jpg][http://www.by-star.net]] *|*  [[elisp:(find-file "/libre/ByStar/InitialTemplates/activeDocs/listOfDocs/fullUsagePanel-en.org")][BxDE Top Panel]] *|* [[elisp:(blee:bnsm:panel-goto "/libre/ByStar/InitialTemplates/activeDocs/planning/Main")][ByStar Planning]]
-
+* +
 *                                        *━━━━━━━━━━━━━━━━━━━━━━━━*
-*   *Siblings*   :: [[elisp:(blee:bnsm:panel-goto "/bisos/panels/blee-core/COMEEGA/_nodeBase_")][ =COMEEGA= ]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/panels/blee-core/architecture/_nodeBase_")][ =architecture= ]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/panels/blee-core/blee-boot/_nodeBase_")][ =blee-boot= ]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/panels/blee-core/blee-elisp/_nodeBase_")][ =blee-elisp= ]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/panels/blee-core/blee-pkgs/_nodeBase_")][ =blee-pkgs= ]] *|*
-*   *Siblings*   :: [[elisp:(blee:bnsm:panel-goto "/bisos/panels/blee-core/blee-repos/_nodeBase_")][ =blee-repos= ]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/panels/blee-core/blee-xdg/_nodeBase_")][ =blee-xdg= ]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/panels/blee-core/contacts/_nodeBase_")][ =contacts= ]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/panels/blee-core/elisp/_nodeBase_")][ =elisp= ]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/panels/blee-core/emacs/_nodeBase_")][ =emacs= ]] *|*
-*   *Siblings*   :: [[elisp:(blee:bnsm:panel-goto "/bisos/panels/blee-core/mail/_nodeBase_")][ =mail= ]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/panels/blee-core/org-mode/_nodeBase_")][ =org-mode= ]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/panels/blee-core/pkgAdoption/_nodeBase_")][ =pkgAdoption= ]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/panels/blee-core/poly-dblocks/_nodeBase_")][ =poly-dblocks= ]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/panels/blee-core/snippets/_nodeBase_")][ =snippets= ]] *|*
-*   *Siblings*   :: [[elisp:(blee:bnsm:panel-goto "/bisos/panels/blee-core/web-browse/_nodeBase_")][ =web-browse= ]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/panels/blee-core/web-search")][web-search]] *|*
+*   *Siblings*   :: [[elisp:(blee:bnsm:panel-goto "/bisos/panels/blee-core/COMEEGA/_nodeBase_")][ =COMEEGA= ]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/panels/blee-core/architecture/_nodeBase_")][ =architecture= ]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/panels/blee-core/blee-boot/_nodeBase_")][ =blee-boot= ]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/panels/blee-core/blee-dev/_nodeBase_")][ = /<blee-dev>/ = ]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/panels/blee-core/blee-elisp/_nodeBase_")][ =blee-elisp= ]] *|*
+*   *Siblings*   :: [[elisp:(blee:bnsm:panel-goto "/bisos/panels/blee-core/blee-evolution/_nodeBase_")][ = /<blee-evolution>/ = ]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/panels/blee-core/blee-pkgs/_nodeBase_")][ =blee-pkgs= ]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/panels/blee-core/blee-repos/_nodeBase_")][ =blee-repos= ]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/panels/blee-core/blee-xdg/_nodeBase_")][ =blee-xdg= ]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/panels/blee-core/contacts/_nodeBase_")][ =contacts= ]] *|*
+*   *Siblings*   :: [[elisp:(blee:bnsm:panel-goto "/bisos/panels/blee-core/elisp/_nodeBase_")][ =elisp= ]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/panels/blee-core/emacs/_nodeBase_")][ =emacs= ]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/panels/blee-core/lsp-client/_nodeBase_")][ =lsp-client= ]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/panels/blee-core/mail/_nodeBase_")][ =mail= ]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/panels/blee-core/org-mode/_nodeBase_")][ =org-mode= ]] *|*
+*   *Siblings*   :: [[elisp:(blee:bnsm:panel-goto "/bisos/panels/blee-core/pkgAdoption/_nodeBase_")][ =pkgAdoption= ]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/panels/blee-core/poly-dblocks/_nodeBase_")][ =poly-dblocks= ]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/panels/blee-core/snippets/_nodeBase_")][ =snippets= ]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/panels/blee-core/web-browse/_nodeBase_")][ =web-browse= ]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/panels/blee-core/web-search")][web-search]] *|*
 *   /Ancestors/  :: [[elisp:(blee:bnsm:panel-goto "//bisos/panels/blee-core/_nodeBase_")][ =blee-core= ]] *|* [[elisp:(blee:bnsm:panel-goto "//bisos/panels/_nodeBase_")][ = /<panels>/ = ]] *|* [[elisp:(dired "//bisos")][ ~bisos~ ]] *|*
 *                                   _━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━_                          [[elisp:(org-shifttab)][<)]] E|
 ####+END
@@ -75,9 +74,9 @@ Based on DOOMDIR, but in /bisos/blee/emacsVers/<ver>/doom-blee3 git repos are cl
 **** /bisos/blee/dooms/doom-base-blee3/blee-boot-load.el --- starts in common with conditional pure-blee
 *** -
 *** 3.2) <<doom+blee>> --- See [[doom+blee-setup]] first
-**** <<doom+blee base>>  is at [[file:/bisos/blee/emacsVers/28.1/doom-blee3]]
-****  <<Runs Doom's early-init.el>> at [[/bisos/blee/emacsVers/28.1/doom-main-blee3/early-init.el]]
-****  <<Runs Doom's init.el>> at [[/bisos/blee/emacsVers/28.1/doom-main-blee3/init.el]]
+**** <<doom+blee base>>  is at [[file:/bisos/blee/emacsVers/28.2/doom-blee3]]
+****  <<Runs Doom's early-init.el>> at [[/bisos/blee/emacsVers/28.2/doom-main-blee3/early-init.el]]
+****  <<Runs Doom's init.el>> at [[/bisos/blee/emacsVers/28.2/doom-main-blee3/init.el]]
 ***** Using environment variable DOOMDIR
 **** DOOMDIR  envVar in [[bleeDoomsManage.sh]] points to [[doomDirBase]] being [[/bisos/blee/dooms/doom-base-blee3]]
 **** Doom, from  [[doomDirBase]] runs:  [[/bisos/blee/dooms/doom-base-blee2/init.el][init.el]]  file as concat of [[/bisos/blee/dooms/doom-base-blee2/initSansBlee.el][initSansBlee.el]] and  [[/bisos/blee/dooms/doom-base-blee2/loadBlee.el][loadBlee.el]]
@@ -133,7 +132,7 @@ Based on DOOMDIR, but in /bisos/blee/emacsVers/<ver>/doom-blee3 git repos are cl
 |-------------+----------------------+------------------------------------------------------------|
 | chemacs:    | blee -i buildChemacs |                                                            |
 |-------------+----------------------+------------------------------------------------------------|
-| ch-profile: | default              | 2024 (doom-blee3)                                           |
+| ch-profile: | default              | 2024 (doom-blee3)                                          |
 |             | doom-dist            | Doom as distrubted                                         |
 |             | blee1                | Old, no doom at all -- But works                           |
 |             | doom-blee3           | Primary as of 2023                                         |
@@ -142,10 +141,11 @@ Based on DOOMDIR, but in /bisos/blee/emacsVers/<ver>/doom-blee3 git repos are cl
 |             | blee3                | Pure blee, uses frozen packages of doom-blee3 without doom |
 |-------------+----------------------+------------------------------------------------------------|
 
-NOTYET, Capture straight and doom straight signatures.
+NOTYET, Capture straight and doom straight signatures. (commitId)
 
 |-------+----------------------------------------------+-----------------------------------|
 | doom: | Execution Base                               | Configuration Base                |
+|-------+----------------------------------------------+-----------------------------------|
 | doom: | /bisos/blee/emacsVers/28.1.50/doom-main-pure | /bisos/blee/dooms/doom-base-blee3 |
 | doom: | doom-sansBlee3                               | doom-base-sansBlee3               |
 | doom: | ~/.doom.d Overwritten by  Env                |                                   |
@@ -155,6 +155,7 @@ NOTYET, Capture straight and doom straight signatures.
 
 |------------+----------------------------------------------+-----------------------------------|
 | doomsBlee: | Execution Base                               | Configuration Base                |
+|------------+----------------------------------------------+-----------------------------------|
 | doomsBlee: | /bisos/blee/emacsVers/28.1.50/doom-main-pure | /bisos/blee/dooms/doom-base-blee3 |
 | doomsBlee: | ~/.doom                                      |                                   |
 |            | bleeDoomsManage.sh                           |                                   |
