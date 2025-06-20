@@ -162,9 +162,8 @@ respectively F for followups.
 *                                   *━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━*                          [[elisp:(org-shifttab)][<)]] E|
 ####+END
 ####+BEGIN: bxPanel:realms:site|extend
-* [[elisp:(show-all)][(>]]                                [[elisp:(org-cycle)][| /━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━/ |]]                         
-** Missing selectedRealmBaseDir /bxo/usg/bystar/bpos/realms/site/0
- [[elisp:(org-shifttab)][<)]] E|
+* [[elisp:(show-all)][(>]]                                [[elisp:(org-cycle)][| /━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━/ |]]
+
 ####+END
 ####+BEGIN: bxPanel:realms:platform|extend
 * [[elisp:(show-all)][(>]]                                [[elisp:(org-cycle)][| =━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━= |]]                         
