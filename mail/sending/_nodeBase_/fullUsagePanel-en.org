@@ -157,18 +157,19 @@ and hit a if you want to write a new posting or use f
 respectively F for followups.
 
 ####+BEGIN: bxPanel:realms:user|extend
-* [[elisp:(show-all)][(>]]                                [[elisp:(org-cycle)][| *━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━* |]]                         
-** No extention found at: /bisos/panels/blee-core/mail/sending/_nodeBase_/general.org
-*                                   *━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━*                          [[elisp:(org-shifttab)][<)]] E|
+* [[elisp:(show-all)][(>]]                                [[elisp:(org-cycle)][| *━━━━━ USAGE-ENV Realm Extension ━━━━━* |]]
+** Extended By: /bxo/r3/iso/piu_mbFullUsage/realmPanels/blee-core/mail/sending/_nodeBase_/realmInsert.org :*
+** [[/bxo/usg/bystar/bpos/realms/usage-env/0/realmPanels/blee-core/mail/sending/_nodeBase_/fullUsagePanel-en.org]]
+*                                *━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━*                          [[elisp:(org-shifttab)][<)]] E|
 ####+END
 ####+BEGIN: bxPanel:realms:site|extend
-* [[elisp:(show-all)][(>]]                                [[elisp:(org-cycle)][| /━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━/ |]]
-
+* [[elisp:(show-all)][(>]]                                [[elisp:(org-cycle)][| /━━━━━ SITE Realm Extension ━━━━━/ |]]
+** No extention found at: /bisos/site/realmPanels/blee-core/mail/sending/_nodeBase_/realmInsert.org
+*                                /━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━/                          [[elisp:(org-shifttab)][<)]] E|
 ####+END
 ####+BEGIN: bxPanel:realms:platform|extend
-* [[elisp:(show-all)][(>]]                                [[elisp:(org-cycle)][| =━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━= |]]                         
-** Missing selectedRealmBaseDir /bxo/usg/bystar/bpos/realms/platform/0
- [[elisp:(org-shifttab)][<)]] E|
+* [[elisp:(show-all)][(>]]                                [[elisp:(org-cycle)][| =━━━━━ PLATFORM Realm Extension ━━━━━= |]]
+Unimplemented Platform [[elisp:(org-shifttab)][<)]] E|
 ####+END
 ####+BEGIN: blee:bxPanel:separator :outLevel 1
 * /[[elisp:(beginning-of-buffer)][|^]] [[elisp:(blee:menu-sel:navigation:popupMenu)][==]] [[elisp:(delete-other-windows)][|1]]/

@@ -73,7 +73,7 @@ Based on DOOMDIR, but in /bisos/blee/emacsVers/<ver>/doom-blee3 git repos are cl
 **** /bisos/blee/dooms/doom-base-blee3/init.el  --- is composed of sansBlee
 **** /bisos/blee/dooms/doom-base-blee3/blee-boot-load.el --- starts in common with conditional pure-blee
 *** -
-*** 3.2) <<doom+blee>> --- See [[doom+blee-setup]] first
+*** 3.2) <<doom+blee>> --- See [[doom+blee-setup]] first -- <2026-04-19 Sun 15:16> THIS IS OBSOLETED emacsVers is in var
 **** <<doom+blee base>>  is at [[file:/bisos/blee/emacsVers/28.2/doom-blee3]]
 ****  <<Runs Doom's early-init.el>> at [[/bisos/blee/emacsVers/28.2/doom-main-blee3/early-init.el]]
 ****  <<Runs Doom's init.el>> at [[/bisos/blee/emacsVers/28.2/doom-main-blee3/init.el]]
@@ -121,11 +121,11 @@ Based on DOOMDIR, but in /bisos/blee/emacsVers/<ver>/doom-blee3 git repos are cl
 * [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(outline-show-subtree+toggle)][| *Tabular Hierarchy, Order and Links:* |]] <<tabular>> emacs, chemacs, doom, boot  [[elisp:(org-shifttab)][<)]] E|
 ####+END
 
-|----------------+----------------------------+-------------------------|
-| Emacs Binaries | sys=bin  ver=/usr/local    | emacs 28.2 and emacs 30 |
-|----------------+----------------------------+-------------------------|
-|                | [[lcaEmacsSrcBinsPrep.sh]] |                         |
-|----------------+----------------------------+-------------------------|
+|----------------+-------------------------+-------------------------|
+| Emacs Binaries | sys=bin  ver=/usr/local | emacs 28.2 and emacs 30 |
+|----------------+-------------------------+-------------------------|
+|                | [[lcaEmacsSrcBinsPrep.sh]]  |                         |
+|----------------+-------------------------+-------------------------|
 
 |-------------+----------------------+------------------------------------------------------------|
 | chemacs:    | ~/.emacs-profiles.el | ~/.emacs.d/chemacs.el                                      |
