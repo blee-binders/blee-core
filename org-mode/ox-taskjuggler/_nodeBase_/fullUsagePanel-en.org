@@ -42,6 +42,7 @@
 *  https://github.com/taskjuggler
 * Link to "/bisos/blee/bin/taskjuggler-sbom.pcs"
 * https://github.com/h-oll/ox-taskjuggler
+* https://orgmode.org/worg/org-tutorials/org-taskjuggler.html
 * https://github.com/emacsmirror/taskjuggler-mode
 * -B|
 ####+BEGIN: blee:bxPanel:separator :outLevel 1
