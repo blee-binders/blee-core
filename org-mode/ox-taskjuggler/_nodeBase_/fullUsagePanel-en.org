@@ -44,6 +44,13 @@
 * https://github.com/h-oll/ox-taskjuggler
 * https://orgmode.org/worg/org-tutorials/org-taskjuggler.html
 * https://github.com/emacsmirror/taskjuggler-mode
+* ---------------
+* Example  ./accountingExample.org
+*          ./accountingExample.tjp
+*          ./reports/Plan.html
+* playwright screenshot file://$(pwd)/reports/Plan.html  $(pwd)/reports/Plan.html
+* playwright screenshot file://$(pwd)/reports/Plan.html  $(pwd)/reports/PlanFull.png --full-page
+*         ./reports/PlanFull.png
 * -B|
 ####+BEGIN: blee:bxPanel:separator :outLevel 1
 * /[[elisp:(beginning-of-buffer)][|^]] [[elisp:(blee:menu-sel:navigation:popupMenu)][==]] [[elisp:(delete-other-windows)][|1]]/
