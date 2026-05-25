@@ -6,6 +6,7 @@
 # (let ((org-agenda-files (list (buffer-file-name)))) (org-agenda-list))
 # (let ((org-agenda-files (list (buffer-file-name)))) (org-todo-list))
 # (org-taskjuggler-export)  (org-taskjuggler-export-and-process) (org-taskjuggler-export-process-and-open)
+# (b:org-taskjuggler-export-all)
 
 * Accounting Software                                        :taskjuggler_project:
 
