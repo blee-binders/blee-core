@@ -38,31 +38,43 @@
 ** Overview Comes Here.
 ** -B|
 * +
-* Emacs AI Packages for Claude
+* Emacs AI Packages for Claude --- As of May 30, 2026
 
 ** General Backend Packages (Claude is one of several LLMs)
 
-| Package           | What it does                                                        | Stars | Contributors | Created    |
-|-------------------+---------------------------------------------------------------------+-------+--------------+------------|
-| gptel             | Multi-backend chat; streaming, tool-calling, multi-modal            |  3352 |          147 | 2023-03-06 |
-| chatgpt-shell     | Multi-LLM shell; absorbed claude-shell from same author             |  1211 |           60 | 2023-03-20 |
-| ellama            | Task-specific commands (summarize, refactor, translate) on llm.el   |   944 |           24 | 2023-10-08 |
-| aidermacs         | Emacs-native Aider fork with built-in Ediff for diff review         |   902 |           55 | 2025-02-11 |
-| org-ai            | LLMs inside org-mode blocks; Claude, ChatGPT, local models          |   818 |           20 | 2023-03-06 |
-| aider.el          | Emacs UI wrapper for Aider CLI coding agent                         |   677 |           24 | 2024-10-02 |
-| minuet-ai.el      | As-you-type code completion via corfu/company                       |   359 |            4 | 2025-01-13 |
-| ai-code-interface | Unified interface for Claude Code CLI, Copilot CLI, Gemini CLI      |   233 |           19 | 2025-07-19 |
-| elaiza            | LLM chat library with dedicated elaiza-claude.el backend            |    13 |            2 | 2024-04-26 |
-| llm.el            | Foundation provider-agnostic library (GNU ELPA only)                |     - |            - | -          |
+| Package           | What it does                                                      | Stars | Contributors |    Created |
+|-------------------+-------------------------------------------------------------------+-------+--------------+------------|
+| gptel             | Multi-backend chat; streaming, tool-calling, multi-modal          |  3352 |          147 | 2023-03-06 |
+|                   | https://github.com/karthink/gptel                                 |       |              |            |
+|-------------------+-------------------------------------------------------------------+-------+--------------+------------|
+| chatgpt-shell     | Multi-LLM shell; absorbed claude-shell from same author           |  1211 |           60 | 2023-03-20 |
+| ellama            | Task-specific commands (summarize, refactor, translate) on llm.el |   944 |           24 | 2023-10-08 |
+|-------------------+-------------------------------------------------------------------+-------+--------------+------------|
+| aidermacs         | Emacs-native Aider fork with built-in Ediff for diff review       |   902 |           55 | 2025-02-11 |
+|                   | https://github.com/MatthewZMD/aidermacs                           |       |              |            |
+|-------------------+-------------------------------------------------------------------+-------+--------------+------------|
+| org-ai            | LLMs inside org-mode blocks; Claude, ChatGPT, local models        |   818 |           20 | 2023-03-06 |
+| aider.el          | Emacs UI wrapper for Aider CLI coding agent                       |   677 |           24 | 2024-10-02 |
+| minuet-ai.el      | As-you-type code completion via corfu/company                     |   359 |            4 | 2025-01-13 |
+| ai-code-interface | Unified interface for Claude Code CLI, Copilot CLI, Gemini CLI    |   233 |           19 | 2025-07-19 |
+| elaiza            | LLM chat library with dedicated elaiza-claude.el backend          |    13 |            2 | 2024-04-26 |
+| llm.el            | Foundation provider-agnostic library (GNU ELPA only)              |     - |            - |          - |
 
 ** Claude-Specific Packages
 
 | Package            | What it does                                                         | Stars | Contributors |    Created |
 |--------------------+----------------------------------------------------------------------+-------+--------------+------------|
 | claude-code-ide.el | Native MCP bridge exposing xref, treesit, LSP, imenu to Claude       |  1559 |           12 | 2025-06-23 |
+|                    | manzaltu   https://github.com/manzaltu/claude-code-ide.el            |       |              |            |
+|--------------------+----------------------------------------------------------------------+-------+--------------+------------|
 | claude-code.el     | Runs Claude Code CLI in Emacs via eat/vterm; multi-project + MCP     |   706 |           17 | 2025-03-13 |
+|                    | stevemolitor  --   https://github.com/stevemolitor/claude-code.el    |       |              |            |
+|--------------------+----------------------------------------------------------------------+-------+--------------+------------|
 | claudemacs         | Pair programming wrapper with transient menu, Doom/Perspective       |   170 |            3 | 2025-05-26 |
+|--------------------+----------------------------------------------------------------------+-------+--------------+------------|
 | monet              | WebSocket MCP server exposing Emacs internals (diagnostics, diffs)   |   108 |            8 | 2025-07-27 |
+|                    | stevemolitor  --   https://github.com/stevemolitor/monet             |       |              |            |
+|--------------------+----------------------------------------------------------------------+-------+--------------+------------|
 | claude-code-emacs  | Vterm-based Claude Code CLI; per-project sessions, transient menus   |    63 |            5 | 2025-05-31 |
 | claude-shell       | Original Claude-only shell; archived, superseded by chatgpt-shell    |    45 |            4 | 2024-03-17 |
 | claudia            | Pre-alpha; buffer knowledge-base, region explanation, Elisp tool-use |    28 |            1 | 2024-10-20 |
