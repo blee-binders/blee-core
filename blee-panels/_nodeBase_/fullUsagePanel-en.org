@@ -35,14 +35,63 @@
 *   /Ancestors/  :: [[elisp:(blee:bnsm:panel-goto "//bisos/panels/blee-core/_nodeBase_")][ =blee-core= ]] *|* [[elisp:(blee:bnsm:panel-goto "//bisos/panels/_nodeBase_")][ = /<panels>/ = ]] *|* [[elisp:(dired "//bisos")][ ~bisos~ ]] *|*
 *                                   _━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━_                          [[elisp:(org-shifttab)][<)]] E|
 ####+END
-####+BEGIN: blee:bxPanel:foldingSection :outLevel 1 :title "Overview and Use Cases" :anchor "Panel" :extraInfo "  /::Blank Starting Point::/"
-* [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(outline-show-subtree+toggle)][| *Overview and Use Cases:* |]] <<Panel>>   /::Blank Starting Point::/  [[elisp:(org-shifttab)][<)]] E|
+####+BEGIN: blee:bxPanel:foldingSection :outLevel 1 :title "Overview and Use Cases" :anchor "Panel" :extraInfo "  /::Blee-Panels in General and ByStar Blee Panels::/"
+* [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(outline-show-subtree+toggle)][| *Overview and Use Cases:* |]] <<Panel>>   /::Blee-Panels in General and ByStar Blee Panels::/  [[elisp:(org-shifttab)][<)]] E|
 ####+END
+
+*- Scope of this panel is Blee-Panels in general, BISOS Blee-Panels, Realmed Blee-Panels and Private Blee-Panels.
 ** +
-** Overview Comes Here.
 ** -B|
 * +
 * -B|
+* About Blee Panels in General
+
+Blee Panels are a pattern of org-mode files that are structured in a file hierarchy as a tree.
+The leaves are laidout in a flat directory. The branches are in a directory that also include a _nodeBase_ sub directory.
+
+There are many trees. And the collection of the trees form a web of blee-panels.
+
+The fullUsagePanel-en.org is the prime source of information for each panel.
+
+blee-panels browsing is meant to be similar to web browsing as point and click.
+
+Use of blee-panels is generalized. Each panel has icons that clarifies if it is public or which ByStar Realm it belongs to.
+
+Blee-panels are the primary method of documentation in the ByStar Digital Ecosystem
+
+* Public /bisos/panels  and https://github.com/orgs/blee-binders/repositories
+
+Use of blee-panels is BISOS and Blee spans the following:
+
+- /bisos/panels
+
+  Repos of  https://github.com/orgs/blee-binders are cloned  in /bisos/panels/.
+  These are then made available through the "Panles" blee menu bar.
+
+- bisos-pip/py3/panels
+
+  Each bisos.pkg at pypi has a panel.
+  These are then made available at
+  /bisos/git/auth/bxRepos/blee-binders/bisos-core/bisos-pip/_nodeBase_/fullUsagePanel-en.org
+  through symlinks.
+
+- blee emacs packages.
+  These are then made available at
+  /bisos/git/auth/bxRepos/blee-binders/blee-core/blee-pkgs/_nodeBase_/fullUsagePanel-en.org
+
+* Private Blee Panels
+
+Blee-panels can be used anywhere in an adhoc manner.
+
+* Realm based extension of blee-core blee panels
+
+This can be done with dblock inclusion or with pointers
+
+* Bash execution from within blee-panel
+
+Just execute or capture stdout/stderr dblocks.
+
+
 ####+BEGIN: blee:bxPanel:separator :outLevel 1
 * /[[elisp:(beginning-of-buffer)][|^]] [[elisp:(blee:menu-sel:navigation:popupMenu)][==]] [[elisp:(delete-other-windows)][|1]]/
 ####+END
