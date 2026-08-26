@@ -37,6 +37,7 @@
 * [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(outline-show-subtree+toggle)][| *Overview And Scope:* |]] <<Panel>> Booting Order  [[elisp:(org-shifttab)][<)]] E|
 ####+END
 ** +
+** <2026-08-14 Fri 17:41>  Look into https://github.com/MatthewZMD/.emacs.d
 ** Scope of this panel is all that involves booting into blee.
 ** Blee is the emacs env plus select other GUI apps. That totality is called Gnome-Blee.
 ** Old Blee1 info at:
