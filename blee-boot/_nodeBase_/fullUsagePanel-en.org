@@ -409,6 +409,16 @@ SCHEDULED: <2024-02-22 Thu>
 * [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(outline-show-subtree+toggle)][| *lcaEmacsSrcBinsPrep.sh:* |]] <<lcaEmacsSrcBinsPrep.sh>>   [[elisp:(org-shifttab)][<)]] E|
 ####+END
 ** +
+####+BEGIN: blee:panel:icm:py:intro :outLevel 2 :sep nil :folding? nil :label "ICM" :icmName "lcaEmacsSrcBinsPrep.sh" :comment "Emacs 28+" :afterComment "-- Functional Needs Cleanup"
+** [[elisp:(show-all)][(>]] [[elisp:(blee:menu-sel:outline:popupMenu)][+-]] [[elisp:(blee:menu-sel:navigation:popupMenu)][==]]  /ICM/ :: [[elisp:(lsip-local-run-command "lcaEmacsSrcBinsPrep.sh -i examples")][lcaEmacsSrcBinsPrep.sh]]  [[elisp:(lsip-local-run-command "lcaEmacsSrcBinsPrep.sh -i visit")][visit]]  [[elisp:(lsip-local-run-command "which -a lcaEmacsSrcBinsPrep.sh")][which -a]]  [[elisp:(lsip-local-run-command "lcaEmacsSrcBinsPrep.sh -i describe")][describe]] *|*  =Emacs 28+= *|*  -- Functional Needs Cleanup [[elisp:(org-shifttab)][<)]] E|
+####+END:
+####+BEGIN: blee:panel:icm:py:intro :outLevel 2 :sep nil :folding? nil :label "CMND" :icmName "emacs-31" :comment "Latest Emacs" :afterComment "-- BISOS src build"
+** [[elisp:(show-all)][(>]] [[elisp:(blee:menu-sel:outline:popupMenu)][+-]] [[elisp:(blee:menu-sel:navigation:popupMenu)][==]]  /CMND/ :: [[elisp:(lsip-local-run-command "emacs-31 -i examples")][emacs-31]]  [[elisp:(lsip-local-run-command "emacs-31 -i visit")][visit]]  [[elisp:(lsip-local-run-command "which -a emacs-31")][which -a]]  [[elisp:(lsip-local-run-command "emacs-31 -i describe")][describe]] *|*  =Latest Emacs= *|*  -- BISOS src build [[elisp:(org-shifttab)][<)]] E|
+####+END:
+####+BEGIN: blee:panel:icm:py:intro :outLevel 2 :sep nil :folding? nil :label "CMND" :icmName "emacs" :comment "System Emacs" :afterComment "-- Debian"
+** [[elisp:(show-all)][(>]] [[elisp:(blee:menu-sel:outline:popupMenu)][+-]] [[elisp:(blee:menu-sel:navigation:popupMenu)][==]]  /CMND/ :: [[elisp:(lsip-local-run-command "emacs -i examples")][emacs]]  [[elisp:(lsip-local-run-command "emacs -i visit")][visit]]  [[elisp:(lsip-local-run-command "which -a emacs")][which -a]]  [[elisp:(lsip-local-run-command "emacs -i describe")][describe]] *|*  =System Emacs= *|*  -- Debian [[elisp:(org-shifttab)][<)]] E|
+####+END:
+
 ** At /bisos/blee/bin/lcaEmacsSrcBinsPrep.sh --- builds emacs from source into /usr/local.
 ** Versions: emacs28 emacs29 emacs30 emacs31 (also "latest" -> emacs31, and "current").
 ** Stages, each takes the version as its arg:
